@@ -1,4 +1,4 @@
-# Actividad-InyeccionSQL
+# Actividad - InyeccionSQL
 
 Explotación y Mitigación de SQL Injection (SQLi)
 
