@@ -1,0 +1,23 @@
+memory_limit = 256M
+post_max_size = 100M
+upload_max_filesize = 100M
+
+
+# Xdebug 2
+#xdebug.remote_enable=1
+#xdebug.remote_autostart=1
+#xdebug.remote_connect_back=1
+#xdebug.remote_host=host.docker.internal
+#xdebug.remote_port=9000
+
+# Xdebug 3
+#xdebug.mode=debug
+xdebug.start_with_request=yes
+date.timezone = "Europe/Madrid"
+#xdebug.client_host=host.docker.internal
+#xdebug.client_port=9003
+#xdebug.idekey=VSCODE
+#disable_functions = shell_exec, system, exec, passthru, popen, proc_open
+disable_functions =
+open_basedir =
+expose_php = Off
