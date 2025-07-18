@@ -1,4 +1,4 @@
-# Actividad 3: Análisis de Dependencias con Dependency-Check
+# Actividad - Análisis de Dependencias con Dependency-Check
 
 **Tema:** Detección de librerías y paquetes vulnerables  
 **Objetivo:** Usar Dependency-Check para analizar dependencias en un proyecto
