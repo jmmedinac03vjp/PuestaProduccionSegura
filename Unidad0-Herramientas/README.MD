@@ -34,7 +34,7 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 - Metodología de trabajo.
 - Práctica de la plataforma.
 
-- Introducción a los conceptos de ciberseguridad.
+- Fundamentos de Seguridad informática.
 - Documentación y lenguaje de marcas MarkDown
 - Sistemas de control de versiones: Git
 - Virtualización. Contenedores: Docker
