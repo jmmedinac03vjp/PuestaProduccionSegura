@@ -1,13 +1,14 @@
 # Unidad 0 - Introducción a la ciberseguridad y herramientas necesarias
 
-
+---
 # Objetivos
 
-
+---
 # Criterios de Evaluación
 
 En esta unidad se aplica parte del RA5: Implanta sistemas seguros de despliegue de software, utilizando herramientas para la automatización de la construcción de sus elementos.
 
+---
 **Criterios de evaluación:**
 
 a) Se han identificado las características, principios y objetivos de la integración del desarrollo y operación del software.
@@ -24,23 +25,19 @@ f)	Se han documentado las tareas realizadas y los procedimientos a seguir para l
 
 g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equipo.
 
-
-
+---
 # Contenidos Teóricos
 
 - Metodología de trabajo.
 - Práctica de la plataforma.
----
+
 - Introducción a los conceptos de ciberseguridad.
 - Documentación y lenguaje de marcas MarkDown
 - Sistemas de control de versiones: Git
 - Virtualización. Contenedores: Docker
 - Prácticas unificadas para el desarrollo y operación del software (DevOps).
 
-___
-
-...
-
+---
 
 # Actividades
 
@@ -49,5 +46,5 @@ ___
 - [Uso de Git(III)](Actividad-UsoGitIII/README.md)
 - []()
 
-
+---
 # Recursos
