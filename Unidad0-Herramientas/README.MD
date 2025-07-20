@@ -37,6 +37,10 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 - Virtualización. Contenedores: Docker
 - Prácticas unificadas para el desarrollo y operación del software (DevOps).
 
+___
+
+...
+
 
 # Actividades
 
