@@ -5,7 +5,7 @@
 # Objetivos
 
 
-
+---
 # Criterios de Evaluación
 
 En esta unidad se aplica el RA1: Prueba aplicaciones web y aplicaciones para dispositivos móviles analizando la estructura del código y su modelo de ejecución.
@@ -23,6 +23,7 @@ d)	Se han ejecutado diferentes tipos de pruebas de software.
 e)	Se han evaluado los lenguajes de programación de acuerdo a la infraestructura de seguridad que proporcionan.
 
 
+---
 # Contenidos Teóricos
 
 - Fundamentos de la programación.
@@ -34,10 +35,14 @@ e)	Se han evaluado los lenguajes de programación de acuerdo a la infraestructur
 - Seguridad en los lenguajes de programación y sus entornos de ejecución (“sandboxes”).
 
 
+---
 # Actividades
 
 - [Actividad-JupyterPhyton](Actividad-JupyterPhyton/README.md)
 - [Actividad-EntornosDesarrollo](Actividad-EntornosDesarrollo/README.md)
 - [Actividad-Pruebas](Actividad-Pruebas/README.md)
 - []()
+
+
+---
 # Recursos

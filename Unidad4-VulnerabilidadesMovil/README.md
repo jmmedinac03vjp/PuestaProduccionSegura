@@ -4,6 +4,7 @@
 # Objetivos
 
 
+---
 # Criterios de Evaluación
 
 En esta unidad se aplica el **RA4: Detecta problemas de seguridad en las aplicaciones para dispositivos móviles, monitorizando su ejecución y analizando ficheros y datos.**
@@ -22,6 +23,7 @@ d)	Se han utilizado herramientas de monitorización de tráfico de red para dete
 e)	Se han inspeccionado binarios de aplicaciones móviles para buscar fugas de información sensible.
 
 
+---
 # Contenidos Teóricos
 
 - Modelos de permisos en plataformas móviles. Llamadas al sistema protegidas.
@@ -31,6 +33,8 @@ e)	Se han inspeccionado binarios de aplicaciones móviles para buscar fugas de i
 - Fuga de información en los ejecutables.
 - Soluciones CASB.
 
+
+---
 # Actividades
 
 - [Actividad-AnalisisEstaticoAPKMobSF](Actividad-AnalisisEstaticoAPKMobSF/README.md)
@@ -39,4 +43,5 @@ e)	Se han inspeccionado binarios de aplicaciones móviles para buscar fugas de i
 - []()
 
 
+---
 # Recursos

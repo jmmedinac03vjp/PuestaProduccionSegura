@@ -5,6 +5,7 @@
 
 
 
+---
 # Criterios de Evaluación
 
 
@@ -27,6 +28,7 @@ f)	Se han configurado servidores web para reducir el riesgo de sufrir ataques co
 g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío masivo de mensajes o registros de usuarios a través de programas automáticos (bots).
 
 
+---
 # Contenidos Teóricos
 
 - Desarrollo seguro de aplicaciones web.
@@ -40,6 +42,7 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
 - Seguridad de portales y aplicativos web. Soluciones WAF(Web Application Firewall).
 
 
+---
 # Actividades
 
 - [Actividad-CreacionEntornosExplotacionPrueba](Actividad-CreacionEntornosExplotacionPrueba/README.md)
@@ -71,4 +74,5 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
 
 
 
+---
 # Recursos
