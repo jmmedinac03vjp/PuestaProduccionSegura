@@ -3,11 +3,11 @@
 
 
 **Índice**
-# [Encabezados](#encabezados)
-# [Estilos de texto](#estilos-de-texto)
-# [Entrecomillado de texto](#entrecomillado-de-texto)
-# [Código de cita](#codigo-de-cita)
-# [Vínculos](#vinculos)
+[Encabezados](#encabezados)
+[Estilos de texto](#estilos-de-texto)
+[Entrecomillado de texto](#entrecomillado-de-texto)
+[Código de cita](#codigo-de-cita)
+[Vínculos](#vinculos)
 # [Saltos de línea](#saltos-de-linea)
 # [Imágenes](#imagenes)
 # [Listas](#listas)
