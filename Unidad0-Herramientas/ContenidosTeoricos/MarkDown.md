@@ -3,29 +3,52 @@
 
 
 **Índice**
-[Encabezados](#encabezados)
-[Estilos de texto](#estilos-de-texto)
-[Entrecomillado de texto](#entrecomillado-de-texto)
-[Código de cita](#codigo-de-cita)
-[Vínculos](#vinculos)
-# [Saltos de línea](#saltos-de-linea)
-# [Imágenes](#imagenes)
-# [Listas](#listas)
-# [Listas de tareas](#listas-de-tareas)
-# [Usar emojis](#usar-emojis)
-# [Párrafos](#parrafos)
-# [Notas al pie](#notas-al-pie)
-# [Alertas](#alertas)
-# [Ocultar el contenido con comentarios](#ocultar-el-contenido-con-comentarios)
-# [Ignorar formato de Markdown](#ignoranr-formato-de-markdown)
-# [Tablas](#tablas)
-# [Secciones contraidas](#secciones-contraidas)
-# [Crear y resaltar bloques de código](#crear-y-resaltar-bloques-de-codigo)
-# [Diagramas](#diagramas)
-# [Creación de mapas GeoJSON y TopoJSON](#creacion-de-mapas-geojson-y-topojson)
-# [Expresiones matemáticas](#expresiones-matematicas)
-# [Listas de tareas](#listas-de-tareas)
-# [Referencias](#referencias)
+---
+[Encabezados](#encabezados)  
+
+[Estilos de texto](#estilos-de-texto)  
+
+[Entrecomillado de texto](#entrecomillado-de-texto)  
+
+[Código de cita](#codigo-de-cita)  
+
+[Vínculos](#vinculos)  
+
+[Saltos de línea](#saltos-de-linea)
+
+[Imágenes](#imagenes)
+
+[Listas](#listas)
+
+[Listas de tareas](#listas-de-tareas)
+
+[Usar emojis](#usar-emojis)
+
+[Párrafos](#parrafos)
+
+[Notas al pie](#notas-al-pie)
+
+[Alertas](#alertas)
+
+[Ocultar el contenido con comentarios](#ocultar-el-contenido-con-comentarios)
+
+[Ignorar formato de Markdown](#ignorar-formato-de-markdown)
+
+[Tablas](#tablas)
+
+[Secciones contraidas](#secciones-contraidas)
+
+[Crear y resaltar bloques de código](#crear-y-resaltar-bloques-de-codigo)
+
+[Diagramas](#diagramas)
+
+[Creación de mapas GeoJSON y TopoJSON](#creacion-de-mapas-geojson-y-topojson)
+
+[Expresiones matemáticas](#expresiones-matematicas)
+
+[Listas de tareas](#listas-de-tareas)
+
+[Referencias](#referencias)
 
 ---
 
@@ -82,7 +105,7 @@ Al texto entre comillas se le aplica sangría con una línea vertical en la izqu
 
 
 
-# [Código de cita](#código-de-cita)
+# [Codigo de cita](#codigo-de-cita)
 
 Puedes indicar un código o un comando dentro de un enunciado con comillas invertidas. El texto dentro de las comillas invertidas no será formateado. También puedes presionar el método abreviado de teclado Comando+E (Mac) o Ctrl+E (Windows o Linux) para insertar las comillas invertidas de bloque de código en una línea de Markdown.
 
@@ -132,7 +155,7 @@ git commit
 ~~~
 
 
-# [Vínculos](#vinculos)
+# [Vinculos](#vinculos)
 
 Puede crear un vínculo en línea escribiendo su texto entre corchetes `[ ]` y escribiendo la URL entre paréntesis `( )`. También puede usar el método abreviado de teclado Command+K para crear un vínculo. Cuando haya seleccionado texto, puede pegar una dirección URL del Portapapeles para crear automáticamente un vínculo a partir de la selección.
 
@@ -143,7 +166,7 @@ También puedes crear un hipervínculo de Markdown resaltando el texto y usando 
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
-## [Enlaces de sección](#section-links)
+## [Enlaces de seccion](#section-links)
 
 Puede vincular directamente a cualquier sección que tenga un encabezado. Para ver el delimitador generado automáticamente en un archivo representado, mantenga el puntero sobre el encabezado de sección para exponer el icono de y haga clic en el icono para mostrar el delimitador en el explorador.
 
@@ -215,7 +238,7 @@ Nota:
 
 Si edita un encabezado o cambia el orden de los encabezados con anclas "idénticas", también deberá actualizar los vínculos a esos encabezados, ya que las anclas cambiarán.
 
-## [Vínculos relativos](#relative-links)
+## [Vinculos relativos](#relative-links)
 
 Puedes definir enlaces relativos y rutas de imagen en los archivos representados para ayudar a que los lectores naveguen hasta otros archivos de tu repositorio.
 
@@ -270,7 +293,7 @@ Some text I want to provide a direct link to, but which doesn't have its own hea
 > Las anclas personalizados no se tienen en cuenta por el comportamiento automático de nomenclatura y numeración de vínculos de encabezado automático.
 
 
-# [Saltos de línea](#saltos-de-linea)
+# [Saltos de linea](#saltos-de-linea)
 
 Si está escribiendo en problemas, en solicitudes de extracción o en discusiones de un repositorio, GitHub generará un salto de línea automáticamente:
 
@@ -329,7 +352,7 @@ This example
 Will have a blank line separating both lines
 
 
-# [Imágenes](#imagenes)
+# [Imagenes](#imagenes)
 
 Puede mostrar una imagen agregando ! y ajustar el texto alternativo en `[ ]`. El texto alternativo es un texto corto equivalente a la información de la imagen. Luego, escribe el vínculo de la imagen entre paréntesis `()`.
 
@@ -383,7 +406,7 @@ Puedes crear una lista sin ordenar. Para ello, coloca \-, \* o + antes de una o 
 + Thomas Jefferson
 
 
-![Captura de pantalla de GitHub Markdown en la que se muestra una lista con viñetas de los nombres de los tres primeros presidentes de Estados Unidos.](/assets/cb-7925/images/help/writing/unordered-list-rendered.png)
+
 
 Para ordenar tu lista, antecede cada línea con un número.
 
@@ -397,7 +420,18 @@ Para ordenar tu lista, antecede cada línea con un número.
 2. James Monroe
 3. John Quincy Adams
 
+> [!Note]
+> No es necesario que pongamos números en orden, ya que markdown se encarga por nosotros, pero deben tener un único dígito
 
+```markdown
+1. James Madison
+9. James Monroe
+9. John Quincy Adams
+```
+
+1. James Madison
+9. James Monroe
+9. John Quincy Adams
 
 ## [Listas anidadas](#listas-anidadas)
 
@@ -488,7 +522,7 @@ Escriba : mostrará una lista de emojis sugeridos. La lista se filtrará a medid
 Para obtener una lista completa de los códigos y emoji disponibles, consulta [la hoja de referencia rápida de los emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
 
-# [Párrafos](#parrafos)
+# [Parrafos](#parrafos)
 
 Puedes crear un nuevo párrafo al dejar una línea en blanco entre las líneas de texto.
 
@@ -515,7 +549,7 @@ A footnote can also have multiple lines[^2].
   This is a second line.
 Vete al final del artículo para ver la nota al pie
 
-![Captura de pantalla de Markdown en la que se muestran los números de superíndice usados para indicar notas al pie, junto con saltos de línea opcionales dentro de una nota.](/assets/cb-27017/images/help/writing/footnote-rendered.png)
+
 
 > [!Note]  
 > La posición de una nota al pie de página en Markdown no influye en dónde se representará la nota al pie de página. Puedes escribir una nota al pie después de referenciarla y esta aún se interpretará en la parte inferior del archivo con lenguaje de marcado. Las notas al pie no se admiten en las wikis.
@@ -577,7 +611,7 @@ Puedes indicarle a GitHub que oculte el contenido del Markdown representado si c
 Puedes ver en el archivo .md que la linea indicada aparece en el texto y se ha omitido.
 
 
-# [Ignorar formato de Markdown](#ignoranr-formato-de-markdown)
+# [Ignorar formato de Markdown](#ignorar-formato-de-markdown)
 
 Puedes indicarle a GitHub que ignore (u omita) el formato de Markdown si usas \\ antes del carácter de Markdown.
 
@@ -729,7 +763,7 @@ You can add an image or a code block, too.
 Opcionalmente, para que la sección se muestre como abierta de manera predeterminada, agregue el atributo `open` a la etiqueta `<details>`:
 
 
-# [Crear y resaltar bloques de código](#crear-y-resaltar-bloques-de-codigo)
+# [Crear y resaltar bloques de codigo](#crear-y-resaltar-bloques-de-codigo)
 
 
 > [!NOTE]
@@ -803,7 +837,16 @@ graph TD;
 ```
 ````
 
-![Captura de pantalla de un gráfico de flujo de Sirena representado con cuatro cuadros de lavanda etiquetados como A, B, C y D. Las flechas se extienden de A a B, de B a D, de A a C y de C a D.](/assets/cb-46019/images/help/writing/mermaid-flow-chart.png)
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 
 Nota:
 
@@ -820,7 +863,7 @@ Para asegurarse de que GitHub} admite la sintaxis de Mermaid, compruebe la versi
 ````
 
 
-# [Creación de mapas GeoJSON y TopoJSON](#creacion-de-mapas-geojson-y-topojson)
+# [Creacion de mapas GeoJSON y TopoJSON](#creacion-de-mapas-geojson-y-topojson)
 
 Puedes usar la sintaxis GeoJSON o TopoJSON para crear mapas interactivos. Para crear un mapa, agrega GeoJSON o TopoJSON dentro de un bloque de código delimitado con el identificador de sintaxis `geojson` o `topojson`. Para más información, consulta [Crear y resaltar bloques de código](/es/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
 
@@ -857,7 +900,33 @@ Por ejemplo, puedes crear un mapa especificando coordenadas.
 ```
 ````
 
-![Captura de pantalla de un mapa GeoJSON representado del sudeste de Estados Unidos con una superposición rectangular púrpura en partes de Alabama y Misisipi.](/assets/cb-304239/images/help/writing/fenced-geojson-rendered-map.png)
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-90,35],
+              [-90,30],
+              [-85,30],
+              [-85,35],
+              [-90,35]
+          ]
+        ]
+      }
+    }
+  ]
+}
+```
+
 
 ## [Uso de TopoJSON](#using-topojson)
 
@@ -899,8 +968,41 @@ Por ejemplo, puedes crear un mapa de TopoJSON especificando coordenadas y formas
 }
 ```
 ````
+```topojson
+{
+  "type": "Topology",
+  "transform": {
+    "scale": [0.0005000500050005, 0.00010001000100010001],
+    "translate": [100, 0]
+  },
+  "objects": {
+    "example": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "properties": {"prop0": "value0"},
+          "coordinates": [4000, 5000]
+        },
+        {
+          "type": "LineString",
+          "properties": {"prop0": "value0", "prop1": 0},
+          "arcs": [0]
+        },
+        {
+          "type": "Polygon",
+          "properties": {"prop0": "value0",
+            "prop1": {"this": "that"}
+          },
+          "arcs": [[1]]
+        }
+      ]
+    }
+  },
+  "arcs": [[[4000, 0], [1999, 9999], [2000, -9999], [2000, 9999]],[[0, 0], [0, 9999], [2000, 0], [0, -9999], [-2000, 0]]]
+}
+```
 
-![Captura de pantalla de un mapa TopoJSON representado de Indonesia, Singapur y Malasia con un punto azul, una superposición rectangular púrpura y líneas azules en zigzag.](/assets/cb-434182/images/help/writing/fenced-topojson-rendered-map.png)
 
 Para más información sobre cómo trabajar con archivos `.geojson` y `.topojson`, consulta [Trabajo con archivos que no son de código](/es/repositories/working-with-files/using-files/working-with-non-code-files#mapping-geojson-files-on-github).
 
@@ -945,10 +1047,11 @@ endsolid
 ```
 ````
 
-![Captura de pantalla de un modelo 3D de una pirámide azul sobre una cuadrícula de líneas negras. Las opciones "Wireframe" (Retícula), "Surface Angle" (Ángulo de superficie) o "Solid" (Sólido) aparecen en la parte inferior.](/assets/cb-123217/images/help/writing/fenced-stl-rendered-object.png)
 
 
-# [Expresiones matemáticas](#expresiones-matemáticas)
+
+
+# [Expresiones matematicas](#expresiones-matematicas)
 
 ## [Acerca de la escritura de expresiones matemáticas](#about-writing-mathematical-expressions)
 
@@ -966,13 +1069,7 @@ Hay dos opciones para delimitar una expresión matemática insertada con el text
 This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 ```
 
-![Recorte de pantalla del Markdown representado en el que se muestra una expresión matemática insertada: la raíz cuadrada de 3x menos 1 más (1 más x) al cuadrado.](/assets/cb-6685/images/help/writing/inline-math-markdown-rendering.png)
-
-```text
-This sentence uses $\` and \`$ delimiters to show math inline: $`\sqrt{3x-1}+(1+x)^2`$
-```
-
-![Recorte de pantalla del Markdown representado en el que se muestra una expresión matemática insertada con sintaxis de comillas simples: la raíz cuadrada de 3x menos 1 más (1 más x) al cuadrado.](/assets/cb-10142/images/help/writing/inline-backtick-math-markdown-rendering.png)
+This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 
 ## [Escritura de expresiones como bloques](#writing-expressions-as-blocks)
 
@@ -1011,16 +1108,17 @@ Para mostrar un signo de dólar como un carácter en la misma línea que una exp
     This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
     ```
     
-    ![Captura de pantalla de Markdown representada en la que se muestra cómo una barra diagonal inversa antes de un signo de dólar muestra el signo como parte de una expresión matemática.](/assets/cb-30316/images/help/writing/dollar-sign-within-math-expression.png)
+This expression uses `\$` to display a dollar sign: $`\sqrt{\$4}`$
+
     
 *   Fuera de una expresión matemática, pero en la misma línea, rodea de etiquetas "span" el símbolo `$` explícito.
     
     ```text
     To split <span>$</span>100 in half, we calculate $100/2$
     ```
-    
-    ![Recorte de pantalla del Markdown representado en el que se muestra cómo las etiquetas de intervalo alrededor de un signo de dólar muestran el signo como texto insertado, no como una ecuación matemática.](/assets/cb-22382/images/help/writing/dollar-sign-inline-math-expression.png)
-    
+To split <span>$</span>100 in half, we calculate $100/2$
+
+  
 
 
 
