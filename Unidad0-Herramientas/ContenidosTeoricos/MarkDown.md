@@ -1,7 +1,8 @@
 
 # Síntaxis de MarkDown
 
-
+Vamos a ver la síntaxis del lenguaje de marcas MarkDown.  
+Puedes ver, para más información, la [página del proyecto](https://www.markdownguide.org/) 
 **Índice**
 ---
 [Encabezados](#encabezados)  
@@ -366,10 +367,10 @@ Puede mostrar una imagen agregando ! y ajustar el texto alternativo en `[ ]`. El
 > Cuando quieras mostrar una imagen incluida en el repositorio, usa vínculos relativos en vez de absolutos.
 
 ```
-![Sello excelencia IES Valle del Jerte de Plasencia](./sello-excelencia.png)
+![Sello excelencia IES Valle del Jerte de Plasencia](../files/sello-excelencia.png)
 ```
 
-![Sello excelencia IES Valle del Jerte de Plasencia](./sello-excelencia.png)
+![Sello excelencia IES Valle del Jerte de Plasencia](../files/sello-excelencia.png)
 
 
 Aquí tienes algunos ejemplos para utilizar enlaces relativos para mostrar una imagen.
