@@ -510,7 +510,7 @@ Estas son las alertas representadas:
 
 
 
-## [Ocultar el contenido con comentarios](#hiding-content-with-comments)
+# [Ocultar el contenido con comentarios](#hiding-content-with-comments)
 
 Puedes indicarle a GitHub que oculte el contenido del Markdown representado si colocas el contenido en un comentario HTML.
 
@@ -518,27 +518,24 @@ Puedes indicarle a GitHub que oculte el contenido del Markdown representado si c
 <!-- This content will not appear in the rendered Markdown -->
 ```
 
+<!-- This content will not appear in the rendered Markdown -->
+
+Puedes ver en el archivo .md que la linea indicada aparece en el texto y se ha omitido.
+
 ## [Ignorar formato de Markdown](#ignoring-markdown-formatting)
 
 Puedes indicarle a GitHub que ignore (u omita) el formato de Markdown si usas \\ antes del carácter de Markdown.
 
 `Let's rename \*our-new-project\* to \*our-old-project\*.`
 
-![Captura de pantalla de GitHub Markdown que muestra cómo las barras diagonales inversas impiden la conversión de asteriscos en cursiva.](/assets/cb-5440/images/help/writing/escaped-character-rendered.png)
+Let's rename \*our-new-project\* to \*our-old-project\*.
+
+Podemos observar como no se ha puesto en cursiva `our-new project` ni `our-old-project`.
 
 Para obtener más información, consulte [Sintaxis de Markdown](https://daringfireball.net/projects/markdown/syntax#backslash) de Daring Fireball.
 
-Nota:
-
-El formato de Markdown no se omitirá en el título de un problema o de una solicitud de incorporación de cambios.
-
-## [Inhabilitar la representación del lenguaje de marcado](#disabling-markdown-rendering)
-
-Cuando ves un archivo de lenguaje de marcado, puedes hacer clic en **Código** en la parte superior de este para inhabilitar la representación de lenguaje de marcado y ver en su lugar el código fuente del archivo.
-
-![Captura de pantalla de un archivo Markdown en un repositorio que muestra las opciones para interactuar con el archivo. Un botón, con la etiqueta "Código", está resaltado en naranja oscuro.](/assets/cb-11496/images/help/writing/display-markdown-as-source-global-nav-update.png)
-
-El inhabilitar la interpretación de lenguaje de marcado te permite utilizar las características de vista de código fuente, tales como el enlazado de líneas, el cual no es posible cuando se está viendo un archivo interpretado en lenguaje de marcado.
+> [!NOTE]  
+> El formato de Markdown no se omitirá en el título de un problema o de una solicitud de incorporación de cambios.
 
 # Datos organizados con tablas
 Puede crear tablas con canalizaciones `|` y guiones `-`. Los guiones se usan para crear cada encabezado de columna, mientras que las barras verticales separan cada columna. Debes incluir una línea en blanco antes de tu tabla para que se representen correctamente.
@@ -551,7 +548,11 @@ Puede crear tablas con canalizaciones `|` y guiones `-`. Los guiones se usan par
 | Content Cell  | Content Cell  |
 ```
 
-![Recorte de pantalla de una tabla de Markdown de GitHub representada como dos columnas iguales. Los encabezados se representan en negrita y las filas de contenido alternas tienen un sombreado gris.](/assets/cb-15898/images/help/writing/table-basic-rendered.png)
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 Las barras verticales en cada lado de la tabla son opcionales.
 
@@ -564,7 +565,13 @@ Las celdas pueden variar en el ancho y no es necesario que estén perfectamente 
 | git diff | Show file differences that haven't been staged |
 ```
 
-![Recorte de pantalla de una tabla de Markdown de GitHub con dos columnas de ancho diferente. Las filas muestran los comandos "git status" y "git diff" y sus descripciones.](/assets/cb-21415/images/help/writing/table-varied-columns-rendered.png)
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
+
 
 Si editas fragmentos de código y tablas con frecuencia, puedes beneficiarte de habilitar una fuente de ancho fijo en todos los campos de comentarios de GitHub. Para más información, consulta [Acerca de escritura y formato en GitHub](/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github#enabling-fixed-width-fonts-in-the-editor).
 
@@ -579,7 +586,11 @@ Puede usar [formatos](/es/get-started/writing-on-github/getting-started-with-wri
 | `git diff` | Show file differences that **haven't been** staged |
 ```
 
-![Recorte de pantalla de una tabla de Markdown de GitHub con los comandos con formato de bloques de código. En las descripciones se usa formato en negrita y cursiva.](/assets/cb-24419/images/help/writing/table-inline-formatting-rendered.png)
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
 
 Puede alinear el texto a la izquierda, a la derecha o en el centro de una columna al incluir dos puntos `:` a la izquierda, a la derecha o a ambos lados de los guiones en la línea de encabezamiento.
 
@@ -590,7 +601,12 @@ Puede alinear el texto a la izquierda, a la derecha o en el centro de una column
 | git diff     | git diff       | git diff      |
 ```
 
-![Recorte de pantalla de una tabla de Markdown con tres columnas tal y como se representan en GitHub, en el que se muestra cómo el texto de las celdas se puede alinear a la izquierda, al centro o a la derecha.](/assets/cb-17422/images/help/writing/table-aligned-text-rendered.png)
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+
 
 Para incluir una barra vertical `|` como contenido en su celda, utilice una `\` antes de la barra vertical:
 
@@ -601,7 +617,13 @@ Para incluir una barra vertical `|` como contenido en su celda, utilice una `\` 
 | Pipe     | \|        |
 ```
 
-## Secciones contraidas
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+
+
+# Secciones contraidas
 Creación de una sección contraída
 
 Puede ocultar temporalmente las secciones de Markdown mediante la creación de una sección contraída que el lector puede elegir expandir. Por ejemplo, si quiere incluir detalles técnicos en el comentario una incidencia que puede no ser relevante o interesante para todos los lectores, puede colocar esos detalles en una sección contraída.
@@ -628,23 +650,34 @@ You can add an image or a code block, too.
 </details>
 ````
 
-El Markdown dentro de etiqueta `<summary>` se contraerá de forma predeterminada:
-
-![Recorte de pantalla del Markdown anterior en esta página, tal como se representa en GitHub, en el que se muestra una flecha orientada hacia la derecha y el encabezado "Sugerencias para secciones contraídas".](/assets/cb-5300/images/help/writing/collapsed-section-view.png)
+El Markdown dentro de etiqueta `<summary>` se contraerá de forma predeterminada
 
 Después de que un lector haga clic en , los detalles se expanden.
 
-![Recorte de pantalla del Markdown anterior en esta página como se representa en GitHub. La sección contraída contiene encabezados, texto, imágenes y bloques de código.](/assets/cb-46207/images/help/writing/open-collapsed-section.png)
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+
 
 Opcionalmente, para que la sección se muestre como abierta de manera predeterminada, agregue el atributo `open` a la etiqueta `<details>`:
 
-## Crear y resaltar bloques de código
+# Crear y resaltar bloques de código
 
-![Recorte de pantalla del Markdown de GitHub representado, en el que se muestra el uso de tres acentos graves para crear bloques de código. El bloque comienza por "function test() {".](/assets/cb-30161/images/help/writing/fenced-code-block-rendered.png)
 
-Sugerencia
-
-Para preservar tu formato en una lista, asegúrate de dejar una sangría de ocho espacios en los bloques de código no delimitados.
+> [!NOTE]
+> Para preservar tu formato en una lista, asegúrate de dejar una sangría de ocho espacios en los bloques de código no delimitados.
 
 Para mostrar las comillas simples triples en un bloque de código cercado, enciérralas en comillas simples cuádruples.
 
@@ -656,9 +689,16 @@ Look! You can see my backticks.
 ````
 `````
 
-![Recorte de pantalla del Markdown representado en el que se muestra que, al escribir tres acentos graves entre cuatro acentos graves, son visibles en el contenido representado.](/assets/cb-4725/images/help/writing/fenced-code-show-backticks-rendered.png)
 
-Si editas fragmentos de código y tablas con frecuencia, puedes beneficiarte de habilitar una fuente de ancho fijo en todos los campos de comentarios de GitHub. Para más información, consulta [Acerca de escritura y formato en GitHub](/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github#enabling-fixed-width-fonts-in-the-editor).
+````
+```
+Look! You can see my backticks.
+```
+````
+
+
+
+
 
 ## [Resaltado de sintaxis](#syntax-highlighting)
 
@@ -676,17 +716,15 @@ puts markdown.to_html
 ```
 ````
 
-Se mostrará el bloque de código con resaltado de sintaxis:
-
-![Captura de pantalla de tres líneas de código Ruby tal y como se muestra en GitHub. Los elementos del código se muestran en caracteres morados, azules y rojos para facilitar su lectura.](/assets/cb-19380/images/help/writing/code-block-syntax-highlighting-rendered.png)
-
-Sugerencia
-
-Al crear un bloque de código delimitado que también quieres que tenga resaltado de sintaxis en un sitio de GitHub Pages, usa identificadores de lenguaje en minúsculas. Para más información, consulta [Acerca de las Páginas de GitHub y Jekyll](/es/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#syntax-highlighting).
-
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+Se mostrará el bloque de código con resaltado de sintaxis:  
 Usamos [Linguist](https://github.com/github-linguist/linguist) (Lingüista) para realizar la detección de idioma y seleccionar [gramáticas de terceros](https://github.com/github-linguist/linguist/blob/main/vendor/README.md) para el resaltado de sintaxis. Puede averiguar qué palabras clave son válidas en [el archivo YAML de idiomas](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
 
-## Crear diagramas
+# Crear diagramas
 
 ## [Acerca de crear diagramas](#about-creating-diagrams)
 
