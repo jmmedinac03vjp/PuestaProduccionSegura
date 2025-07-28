@@ -1,4 +1,35 @@
-# [Encabezados](#headings)
+
+# Síntaxis de MarkDown
+
+
+**Índice**
+# [Encabezados](#encabezados)
+# [Estilos de texto](#estilos-de-texto)
+# [Entrecomillado de texto](#entrecomillado-de-texto)
+# [Código de cita](#codigo-de-cita)
+# [Vínculos](#vinculos)
+# [Saltos de línea](#saltos-de-linea)
+# [Imágenes](#imagenes)
+# [Listas](#listas)
+# [Listas de tareas](#listas-de-tareas)
+# [Usar emojis](#usar-emojis)
+# [Párrafos](#parrafos)
+# [Notas al pie](#notas-al-pie)
+# [Alertas](#alertas)
+# [Ocultar el contenido con comentarios](#ocultar-el-contenido-con-comentarios)
+# [Ignorar formato de Markdown](#ignoranr-formato-de-markdown)
+# [Tablas](#tablas)
+# [Secciones contraidas](#secciones-contraidas)
+# [Crear y resaltar bloques de código](#crear-y-resaltar-bloques-de-codigo)
+# [Diagramas](#diagramas)
+# [Creación de mapas GeoJSON y TopoJSON](#creacion-de-mapas-geojson-y-topojson)
+# [Expresiones matemáticas](#expresiones-matematicas)
+# [Listas de tareas](#listas-de-tareas)
+# [Referencias](#referencias)
+
+---
+
+# [Encabezados](#encabezados)
 
 Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabezado del texto. El número de # que utilices determinará el nivel jerárquico y el tamaño tipográfico del encabezado.
 
@@ -15,7 +46,8 @@ Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabeza
 
 ---
 
-# [Estilos de texto](#styling-text)
+
+# [Estilos de texto](#estilos-de-texto)
 
 Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos `.md`.
 
@@ -30,7 +62,8 @@ Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice 
 | Superscript | `<sup> </sup>` | Ninguno | `This is a <sup>superscript</sup> text` | Se trata de un texto de superíndice |
 | Subrayado | `<ins> </ins>` | Ninguno | `This is an <ins>underlined</ins> text` | Se trata de un texto subrayado |
 
-# [Entrecomillado de texto](#quoting-text)
+
+# [Entrecomillado de texto](#entrecomillado-de-texto)
 
 Puede entrecomillar texto con \>.
 
@@ -48,7 +81,8 @@ Al texto entre comillas se le aplica sangría con una línea vertical en la izqu
 
 
 
-# [Código de cita](#quoting-code)
+
+# [Código de cita](#código-de-cita)
 
 Puedes indicar un código o un comando dentro de un enunciado con comillas invertidas. El texto dentro de las comillas invertidas no será formateado. También puedes presionar el método abreviado de teclado Comando+E (Mac) o Ctrl+E (Windows o Linux) para insertar las comillas invertidas de bloque de código en una línea de Markdown.
 
@@ -81,8 +115,24 @@ git commit
 >
 >Observa cómo junto con las tres comillas invertidas podemos poner el lenguaje del código. Así podemos poner ```python  para códigos en lenguaje python.
 
+También podemos utilizar en vez de las comillas invertidas ``` cejillas, ~~~. De esta forma obtenemos un bloque de código donde nos aparecerán opciones de copiar el bloque.
 
-# [Vínculos](#links)
+```
+~~~
+git status
+git add
+git commit
+~~~
+```
+
+~~~
+git status
+git add
+git commit
+~~~
+
+
+# [Vínculos](#vinculos)
 
 Puede crear un vínculo en línea escribiendo su texto entre corchetes `[ ]` y escribiendo la URL entre paréntesis `( )`. También puede usar el método abreviado de teclado Command+K para crear un vínculo. Cuando haya seleccionado texto, puede pegar una dirección URL del Portapapeles para crear automáticamente un vínculo a partir de la selección.
 
@@ -93,7 +143,7 @@ También puedes crear un hipervínculo de Markdown resaltando el texto y usando 
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
-# [Enlaces de sección](#section-links)
+## [Enlaces de sección](#section-links)
 
 Puede vincular directamente a cualquier sección que tenga un encabezado. Para ver el delimitador generado automáticamente en un archivo representado, mantenga el puntero sobre el encabezado de sección para exponer el icono de y haga clic en el icono para mostrar el delimitador en el explorador.
 
@@ -165,7 +215,7 @@ Nota:
 
 Si edita un encabezado o cambia el orden de los encabezados con anclas "idénticas", también deberá actualizar los vínculos a esos encabezados, ya que las anclas cambiarán.
 
-# [Vínculos relativos](#relative-links)
+## [Vínculos relativos](#relative-links)
 
 Puedes definir enlaces relativos y rutas de imagen en los archivos representados para ayudar a que los lectores naveguen hasta otros archivos de tu repositorio.
 
@@ -179,7 +229,7 @@ Un enlace relativo es un enlace que es relativo al archivo actual. Por ejemplo, 
 
 Los enlaces relativos son más sencillos para los usuarios que clonan tu repositorio. Puede que los enlaces absolutos no funcionen en los clones de tu repositorio. Recomendamos usar enlaces relativos para consultar los archivos dentro de tu repositorio.
 
-# [Anclas personalizadas](#custom-anchors)
+## [Anclas personalizadas](#custom-anchors)
 
 Puede usar etiquetas de anclaje HTML estándar (`<a name="unique-anchor-name"></a>`) para crear puntos de anclaje de navegación para cualquier ubicación del documento. Para evitar referencias ambiguas, use un esquema de nomenclatura único para etiquetas de anclaje, como agregar un prefijo al valor de atributo `name`.
 
@@ -220,7 +270,7 @@ Some text I want to provide a direct link to, but which doesn't have its own hea
 > Las anclas personalizados no se tienen en cuenta por el comportamiento automático de nomenclatura y numeración de vínculos de encabezado automático.
 
 
-# [Saltos de línea](#line-breaks)
+# [Saltos de línea](#saltos-de-linea)
 
 Si está escribiendo en problemas, en solicitudes de extracción o en discusiones de un repositorio, GitHub generará un salto de línea automáticamente:
 
@@ -279,7 +329,7 @@ This example
 Will have a blank line separating both lines
 
 
-# [Imágenes](#images)
+# [Imágenes](#imagenes)
 
 Puede mostrar una imagen agregando ! y ajustar el texto alternativo en `[ ]`. El texto alternativo es un texto corto equivalente a la información de la imagen. Luego, escribe el vínculo de la imagen entre paréntesis `()`.
 
@@ -318,7 +368,7 @@ Para obtener más información, consulte [Vínculos relativos](#relative-links).
 
 Se admite el elemento HTML `<picture>`.
 
-# [Listas](#lists)
+# [Listas](#listas)
 
 Puedes crear una lista sin ordenar. Para ello, coloca \-, \* o + antes de una o más líneas de texto.
 
@@ -349,7 +399,7 @@ Para ordenar tu lista, antecede cada línea con un número.
 
 
 
-### [Listas anidadas](#nested-lists)
+## [Listas anidadas](#listas-anidadas)
 
 Puedes crear una lista anidada al dejar sangría en uno o más elementos de la lista debajo de otro elemento.
 
@@ -398,7 +448,8 @@ Puedes crear múltiples niveles de listas anidadas mediante el mismo método. Po
 
 Para obtener más ejemplos, consulte las [especificaciones de GitHub Flavored Markdwon](https://github.github.com/gfm/#example-265).
 
-# [Listas de tareas](#task-lists)
+
+# [Listas de tareas](#listas-de-tareas)
 
 Para crear una lista de tareas, debe añadir como prefijo un guion y espacio, seguido de `[ ]` a los elementos de la lista. Para marcar una tarea como completada, use `[x]`.
 
@@ -423,7 +474,7 @@ Para más información, consulta [About tasklists](/es/get-started/writing-on-gi
 
 
 
-# [Usar emojis](#using-emojis)
+# [Usar emojis](#usar-emojis)
 
 Puedes agregar emoji a la escritura escribiendo `:EMOJICODE:`, dos puntos seguidos del nombre del emoji.
 
@@ -436,11 +487,13 @@ Escriba : mostrará una lista de emojis sugeridos. La lista se filtrará a medid
 
 Para obtener una lista completa de los códigos y emoji disponibles, consulta [la hoja de referencia rápida de los emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
-# [Párrafos](#paragraphs)
+
+# [Párrafos](#parrafos)
 
 Puedes crear un nuevo párrafo al dejar una línea en blanco entre las líneas de texto.
 
-# [Notas al pie](#footnotes)
+
+# [Notas al pie](#notas-al-pie)
 
 Puedes agregar notas al pie para tu contenido si utilizas esta sintaxis de corchetes:
 
@@ -467,7 +520,8 @@ Vete al final del artículo para ver la nota al pie
 > [!Note]  
 > La posición de una nota al pie de página en Markdown no influye en dónde se representará la nota al pie de página. Puedes escribir una nota al pie después de referenciarla y esta aún se interpretará en la parte inferior del archivo con lenguaje de marcado. Las notas al pie no se admiten en las wikis.
 
-## [Alertas](#alerts)
+
+# [Alertas](#alertas)
 
 Las alertas son una extensión Markdown basada en la sintaxis blockquote que puede utilizar para resaltar la información crítica. En GitHub, se muestran con colores e iconos distintivos para indicar la importancia del contenido.
 
@@ -510,7 +564,7 @@ Estas son las alertas representadas:
 
 
 
-# [Ocultar el contenido con comentarios](#hiding-content-with-comments)
+# [Ocultar el contenido con comentarios](#ocultar-el-contenido-con-comentarios)
 
 Puedes indicarle a GitHub que oculte el contenido del Markdown representado si colocas el contenido en un comentario HTML.
 
@@ -522,7 +576,8 @@ Puedes indicarle a GitHub que oculte el contenido del Markdown representado si c
 
 Puedes ver en el archivo .md que la linea indicada aparece en el texto y se ha omitido.
 
-## [Ignorar formato de Markdown](#ignoring-markdown-formatting)
+
+# [Ignorar formato de Markdown](#ignoranr-formato-de-markdown)
 
 Puedes indicarle a GitHub que ignore (u omita) el formato de Markdown si usas \\ antes del carácter de Markdown.
 
@@ -537,7 +592,7 @@ Para obtener más información, consulte [Sintaxis de Markdown](https://daringfi
 > [!NOTE]  
 > El formato de Markdown no se omitirá en el título de un problema o de una solicitud de incorporación de cambios.
 
-# Datos organizados con tablas
+# [Tablas](#tablas)
 Puede crear tablas con canalizaciones `|` y guiones `-`. Los guiones se usan para crear cada encabezado de columna, mientras que las barras verticales separan cada columna. Debes incluir una línea en blanco antes de tu tabla para que se representen correctamente.
 
 ```markdown
@@ -623,7 +678,7 @@ Para incluir una barra vertical `|` como contenido en su celda, utilice una `\` 
 | Pipe     | \|        |
 
 
-# Secciones contraidas
+# [Secciones contraidas](#secciones-contraidas)
 Creación de una sección contraída
 
 Puede ocultar temporalmente las secciones de Markdown mediante la creación de una sección contraída que el lector puede elegir expandir. Por ejemplo, si quiere incluir detalles técnicos en el comentario una incidencia que puede no ser relevante o interesante para todos los lectores, puede colocar esos detalles en una sección contraída.
@@ -673,7 +728,8 @@ You can add an image or a code block, too.
 
 Opcionalmente, para que la sección se muestre como abierta de manera predeterminada, agregue el atributo `open` a la etiqueta `<details>`:
 
-# Crear y resaltar bloques de código
+
+# [Crear y resaltar bloques de código](#crear-y-resaltar-bloques-de-codigo)
 
 
 > [!NOTE]
@@ -695,10 +751,6 @@ Look! You can see my backticks.
 Look! You can see my backticks.
 ```
 ````
-
-
-
-
 
 ## [Resaltado de sintaxis](#syntax-highlighting)
 
@@ -724,7 +776,8 @@ puts markdown.to_html
 Se mostrará el bloque de código con resaltado de sintaxis:  
 Usamos [Linguist](https://github.com/github-linguist/linguist) (Lingüista) para realizar la detección de idioma y seleccionar [gramáticas de terceros](https://github.com/github-linguist/linguist/blob/main/vendor/README.md) para el resaltado de sintaxis. Puede averiguar qué palabras clave son válidas en [el archivo YAML de idiomas](https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml).
 
-# Crear diagramas
+
+# [Diagramas](#diagramas)
 
 ## [Acerca de crear diagramas](#about-creating-diagrams)
 
@@ -766,11 +819,12 @@ Para asegurarse de que GitHub} admite la sintaxis de Mermaid, compruebe la versi
 ```
 ````
 
-## [Creación de mapas GeoJSON y TopoJSON](#creating-geojson-and-topojson-maps)
+
+# [Creación de mapas GeoJSON y TopoJSON](#creacion-de-mapas-geojson-y-topojson)
 
 Puedes usar la sintaxis GeoJSON o TopoJSON para crear mapas interactivos. Para crear un mapa, agrega GeoJSON o TopoJSON dentro de un bloque de código delimitado con el identificador de sintaxis `geojson` o `topojson`. Para más información, consulta [Crear y resaltar bloques de código](/es/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks).
 
-### [Uso de GeoJSON](#using-geojson)
+## [Uso de GeoJSON](#using-geojson)
 
 Por ejemplo, puedes crear un mapa especificando coordenadas.
 
@@ -805,7 +859,7 @@ Por ejemplo, puedes crear un mapa especificando coordenadas.
 
 ![Captura de pantalla de un mapa GeoJSON representado del sudeste de Estados Unidos con una superposición rectangular púrpura en partes de Alabama y Misisipi.](/assets/cb-304239/images/help/writing/fenced-geojson-rendered-map.png)
 
-### [Uso de TopoJSON](#using-topojson)
+## [Uso de TopoJSON](#using-topojson)
 
 Por ejemplo, puedes crear un mapa de TopoJSON especificando coordenadas y formas.
 
@@ -893,7 +947,8 @@ endsolid
 
 ![Captura de pantalla de un modelo 3D de una pirámide azul sobre una cuadrícula de líneas negras. Las opciones "Wireframe" (Retícula), "Surface Angle" (Ángulo de superficie) o "Solid" (Sólido) aparecen en la parte inferior.](/assets/cb-123217/images/help/writing/fenced-stl-rendered-object.png)
 
-## Escritura de expresiones matemáticas
+
+# [Expresiones matemáticas](#expresiones-matemáticas)
 
 ## [Acerca de la escritura de expresiones matemáticas](#about-writing-mathematical-expressions)
 
@@ -932,7 +987,9 @@ Si estás escribiendo en un archivo .md, deberás usar un formato específico pa
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 ```
 
-![Recorte de pantalla del Markdown representado en el que se muestra una ecuación compleja. El texto en negrita es "La desigualdad Cauchy-Schwarz" sobre la fórmula de la desigualdad.](/assets/cb-6672/images/help/writing/math-expression-as-a-block-rendering.png)
+**The Cauchy-Schwarz Inequality**\
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
 
 Otra opción es usar la sintaxis de bloque de código ` ```math ` para mostrar una expresión matemática como un bloque. Con esta sintaxis, no es necesario usar los delimitadores `$$`. Lo siguiente se representará igual que antes:
 
@@ -965,152 +1022,9 @@ Para mostrar un signo de dólar como un carácter en la misma línea que una exp
     ![Recorte de pantalla del Markdown representado en el que se muestra cómo las etiquetas de intervalo alrededor de un signo de dólar muestran el signo como texto insertado, no como una ecuación matemática.](/assets/cb-22382/images/help/writing/dollar-sign-inline-math-expression.png)
     
 
-## Referencias y direcciones URL autovinculadas
-
-## [Direcciones URL](#urls)
-
-GitHub crea automáticamente vínculos a partir de direcciones URL estándar.
-
-`Visit https://github.com`
-
-![Recorte de pantalla del Markdown de GitHub representado en el que se muestra cómo una dirección URL aparece como un vínculo de color azul en el que se puede hacer clic, "Visita https://github.com."](/assets/cb-6214/images/help/writing/url-autolink-rendered.png)
-
-Para más información sobre cómo crear vínculos, consulta [Sintaxis de escritura y formato básicos](/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
-
-## [Propuestas y solicitudes de extracción](#issues-and-pull-requests)
-
-Dentro de las conversaciones en GitHub, las referencias a incidencias y solicitudes de cambios se convierten automáticamente en vínculos acortados.
-
-Nota:
-
-Las referencias vinculadas automáticamente no se crean en wikis ni archivos de un repositorio.
-
-| Tipo de referencia | Referencia sin formato | Vínculo corto |
-| --- | --- | --- |
-| Dirección URL de la solicitud de incorporación de cambios o el problema | [https://github.com/jlord/sheetsee.js/issues/26](https://github.com/jlord/sheetsee.js/issues/26) | [#26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `#` y número de la solicitud de incorporación de cambios o el problema | #26 | [#26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `GH-` y número de la solicitud de incorporación de cambios o el problema | GH-26 | [GH-26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `Username/Repository#` y número de la solicitud de incorporación de cambios o el problema | jlord/sheetsee.js#26 | [jlord/sheetsee.js#26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `Organization_name/Repository#` y número de la solicitud de incorporación de cambios o el problema | github-linguist/linguist#4039 | [github-linguist/linguist#4039](https://github.com/github-linguist/linguist/pull/4039) |
-
-Si referencias una propuesta, una solicitud de cambios o un debate en una lista, la referencia se desplegará para mostrar el título y el estado en su lugar. Para más información sobre las listas de tareas, consulta [About tasklists](/es/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists).
-
-# [Etiquetas](#labels)
-
-Al hacer referencia a la URL de una etiqueta en Markdown, la etiqueta se representa automáticamente. Solo se representan las etiquetas del mismo repositorio, las direcciones URL que apuntan a una etiqueta de otro repositorio se representan como cualquier [dirección URL](/es/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#urls).
-
-Para encontrar la dirección URL de una etiqueta, navega a la página Etiquetas y haz clic en una etiqueta. Por ejemplo, la dirección URL de la etiqueta "mejora" en nuestro [repositorio de documentación](https://github.com/github/docs/) público es
-
-```markdown
-https://github.com/github/docs/labels/enhancement
-```
-
-Nota:
-
-Si el nombre de la etiqueta contiene un punto (`.`), la etiqueta no se representará automáticamente desde la dirección URL de la etiqueta.
-
-## [Confirmar SHA](#commit-shas)
-
-Las referencias a un hash SHA de confirmación se convertirán automáticamente en enlaces acortados para la confirmación en GitHub.
-
-| Tipo de referencia | Referencia sin formato | Vínculo corto |
-| --- | --- | --- |
-| Dirección URL de confirmación | [`https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| SHA | a5c3785ed8d6a35868bc169f07e40e889087fd2e | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| User@SHA | jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e | [jlord@a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| `Username/Repository@SHA` | `jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e` | [`jlord/sheetsee.js@a5c3785`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-
-### [Solución de problemas al hacer referencia a un SHA de confirmación](#troubleshooting-referencing-commit-shas)
-
-Al hacer referencia a una confirmación desde un repositorio privado dentro de un mensaje de confirmación, el SHA de confirmación solo se vinculará brevemente si al menos uno de los autores o confirmadores tienen al menos acceso de lectura a la confirmación a la que se hace referencia.
-
-## [Personalizar enlaces automáticos a recursos externos](#custom-autolinks-to-external-resources)
-
-Si se configuran las referencias autovinculadas personalizadas para un repositorio, entonces las referencias a recursos externos, como un informe de problemas de JIRA o un ticket de Zendesk, se convertirán en vínculos acortados. Para saber qué autovínculos se encuentran disponibles en tu repositorio, contacta a alguien con permisos administrativos sobre el mismo. Para más información, consulta [Configurar enlaces automáticos para referenciar recursos externos](/es/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources).
-
-## [Evitar vínculos de retorno a referencias vinculadas](#avoiding-backlinks-to-linked-references)
-
-De forma predeterminada, las referencias generan un vínculo de retorno. Por ejemplo, la vinculación manual a una propuesta en una solicitud de incorporación de cambios generará automáticamente otro vínculo desde la propuesta _de vuelta_ a la solicitud de incorporación de cambios. Para evitar este comportamiento, puedes usar `redirect.github.com` en lugar de `github.com` al construir la dirección URL en la referencia. Si usas una dirección URL `redirect.github.com` en el vínculo de referencia, no aparecerá ninguna ventana emergente al mantener el puntero sobre él.
-
-body" class="Box-sc-g0xbh4-0 lpuSW">
-
-# [Direcciones URL](#urls)
-
-GitHub crea automáticamente vínculos a partir de direcciones URL estándar.
-
-`Visit https://github.com`
-
-![Recorte de pantalla del Markdown de GitHub representado en el que se muestra cómo una dirección URL aparece como un vínculo de color azul en el que se puede hacer clic, "Visita https://github.com."](/assets/cb-6214/images/help/writing/url-autolink-rendered.png)
-
-Para más información sobre cómo crear vínculos, consulta [Sintaxis de escritura y formato básicos](/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#links).
-
-## [Propuestas y solicitudes de extracción](#issues-and-pull-requests)
-
-Dentro de las conversaciones en GitHub, las referencias a incidencias y solicitudes de cambios se convierten automáticamente en vínculos acortados.
-
-Nota:
-
-Las referencias vinculadas automáticamente no se crean en wikis ni archivos de un repositorio.
-
-| Tipo de referencia | Referencia sin formato | Vínculo corto |
-| --- | --- | --- |
-| Dirección URL de la solicitud de incorporación de cambios o el problema | [https://github.com/jlord/sheetsee.js/issues/26](https://github.com/jlord/sheetsee.js/issues/26) | [#26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `#` y número de la solicitud de incorporación de cambios o el problema | #26 | [#26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `GH-` y número de la solicitud de incorporación de cambios o el problema | GH-26 | [GH-26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `Username/Repository#` y número de la solicitud de incorporación de cambios o el problema | jlord/sheetsee.js#26 | [jlord/sheetsee.js#26](https://github.com/jlord/sheetsee.js/issues/26) |
-| `Organization_name/Repository#` y número de la solicitud de incorporación de cambios o el problema | github-linguist/linguist#4039 | [github-linguist/linguist#4039](https://github.com/github-linguist/linguist/pull/4039) |
-
-Si referencias una propuesta, una solicitud de cambios o un debate en una lista, la referencia se desplegará para mostrar el título y el estado en su lugar. Para más información sobre las listas de tareas, consulta [About tasklists](/es/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists).
-
-## [Etiquetas](#labels)
-
-Al hacer referencia a la URL de una etiqueta en Markdown, la etiqueta se representa automáticamente. Solo se representan las etiquetas del mismo repositorio, las direcciones URL que apuntan a una etiqueta de otro repositorio se representan como cualquier [dirección URL](/es/get-started/writing-on-github/working-with-advanced-formatting/autolinked-references-and-urls#urls).
-
-Para encontrar la dirección URL de una etiqueta, navega a la página Etiquetas y haz clic en una etiqueta. Por ejemplo, la dirección URL de la etiqueta "mejora" en nuestro [repositorio de documentación](https://github.com/github/docs/) público es
-
-```markdown
-https://github.com/github/docs/labels/enhancement
-```
-
-Nota:
-
-Si el nombre de la etiqueta contiene un punto (`.`), la etiqueta no se representará automáticamente desde la dirección URL de la etiqueta.
-
-## [Confirmar SHA](#commit-shas)
-
-Las referencias a un hash SHA de confirmación se convertirán automáticamente en enlaces acortados para la confirmación en GitHub.
-
-| Tipo de referencia | Referencia sin formato | Vínculo corto |
-| --- | --- | --- |
-| Dirección URL de confirmación | [`https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| SHA | a5c3785ed8d6a35868bc169f07e40e889087fd2e | [a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| User@SHA | jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e | [jlord@a5c3785](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-| `Username/Repository@SHA` | `jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e` | [`jlord/sheetsee.js@a5c3785`](https://github.com/jlord/sheetsee.js/commit/a5c3785ed8d6a35868bc169f07e40e889087fd2e) |
-
-### [Solución de problemas al hacer referencia a un SHA de confirmación](#troubleshooting-referencing-commit-shas)
-
-Al hacer referencia a una confirmación desde un repositorio privado dentro de un mensaje de confirmación, el SHA de confirmación solo se vinculará brevemente si al menos uno de los autores o confirmadores tienen al menos acceso de lectura a la confirmación a la que se hace referencia.
-
-## [Personalizar enlaces automáticos a recursos externos](#custom-autolinks-to-external-resources)
-
-Si se configuran las referencias autovinculadas personalizadas para un repositorio, entonces las referencias a recursos externos, como un informe de problemas de JIRA o un ticket de Zendesk, se convertirán en vínculos acortados. Para saber qué autovínculos se encuentran disponibles en tu repositorio, contacta a alguien con permisos administrativos sobre el mismo. Para más información, consulta [Configurar enlaces automáticos para referenciar recursos externos](/es/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/configuring-autolinks-to-reference-external-resources).
-
-## [Evitar vínculos de retorno a referencias vinculadas](#avoiding-backlinks-to-linked-references)
-
-De forma predeterminada, las referencias generan un vínculo de retorno. Por ejemplo, la vinculación manual a una propuesta en una solicitud de incorporación de cambios generará automáticamente otro vínculo desde la propuesta _de vuelta_ a la solicitud de incorporación de cambios. Para evitar este comportamiento, puedes usar `redirect.github.com` en lugar de `github.com` al construir la dirección URL en la referencia. Si usas una dirección URL `redirect.github.com` en el vínculo de referencia, no aparecerá ninguna ventana emergente al mantener el puntero sobre él.
-
-# Listas de tareas
-
-Para crear una lista de tareas, debe añadir como prefijo un guion y espacio, seguido de [ ] a los elementos de la lista. Para marcar una tarea como completada, use [x].
-```
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-```
-
-Captura de pantalla que muestra la versión representada de Markdown. Las referencias a problemas se representan como títulos del problema.
 
 
-# Referencias
 
-[Documentación de github](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+# [Referencias](#referencias)
+
+Cogido de [Documentación de github](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
