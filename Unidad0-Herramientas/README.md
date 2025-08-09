@@ -82,27 +82,6 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 - Virtualización. Contenedores: Docker
 - Prácticas unificadas para el desarrollo y operación del software (DevOps).
 
-# Documentos
-
-- [Fundamentos de Seguridad informática.](ContenidosTeoricos/Unidad0-FundamentosSeguridadInformatica2025.pdf)
-
-En este pdf vamos a ver una introducción a la ciberseguridad: conceptos, tipos de ciberataques, amenazas, etc.
-
-- [Guía de ciberataques de la Oficina de Seguridad del Internauta (OSI) del Instituto del Instituto Nacional de Ciberseguridad (INCIBE)](ContenidosTeoricos/osi-guia-ciberataques.pdf)
-
-En este pdf podremos conocer los principales ciberataques.
-
-- Documentación y lenguaje de marcas MarkDown
-
-Para conocer `Markdown` seguiremos [esta presentación](./ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf) 
-
-- Sistemas de control de versiones: Git
-
-Para conocer `git` puedes seguir el [curso de Docker de José Domingo Muñoz](curso_docker/README.MD). También puedes [echar un ojo a la presentación](ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf) 
-- Virtualización. Contenedores: Docker
-- Prácticas unificadas para el desarrollo y operación del software (DevOps).
-
-
 ---
 # Actividades
 
@@ -114,6 +93,42 @@ Para conocer `git` puedes seguir el [curso de Docker de José Domingo Muñoz](cu
 
 
 ---
+# Linea de vida
+
+1.  Fundamentos de Seguridad informática.
+
+    - [Fundamentos de Seguridad informática.](ContenidosTeoricos/PPSUnidad0-FundamentosSeguridadInformatica2025.pdf). En este pdf vamos a ver una introducción a la ciberseguridad: conceptos, tipos de ciberataques, amenazas, etc.
+
+    - [Guía de ciberataques de la Oficina de Seguridad del Internauta (OSI) del Instituto del Instituto Nacional de Ciberseguridad (INCIBE)](ContenidosTeoricos/osi-guia-ciberataques.pdf). En este pdf podremos conocer los principales ciberataques.
+
+2. Documentación y lenguaje de marcas `MarDown`
+
+    En esta sección podremos conocer la sintaxis del lenguaje de marcas MarkDown
+
+    - [Documentación y lenguaje de marcas MarkDown](./ContenidosTeoricos/MarkDown.md)
+
+3. Sistemas de control de versiones: Git
+
+    En esta sección veremos los Sistemas de Control de versiones y cómo trabajar con Git.
+
+    - [Sistemas de control de versiones: Git](Unidad0-Herramientas/ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf)
+
+4. Virtualización. Contenedores: Docker
+
+    Para conocer `docker` puedes seguir el [curso de Docker de José Domingo Muñoz](curso_docker/README.md). También puedes [echar un ojo a la presentación](ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf)
+
+5. Prácticas unificadas para el desarrollo y operación del software (DevOps).
+
+
+---
+
 # Recursos y contenidos extras
 
-Para ampliar, puedes echarle un ojo [esta presentación de introducción a la ciberseguridad del INCIBE ](ContenidosTeoricos/PresentacionIncibeIntroduccionCiberseguridad.pdf)
+- Para ampliar, puedes echarle un ojo [esta presentación de introducción a la ciberseguridad del INCIBE ](ContenidosTeoricos/PresentacionIncibeIntroduccionCiberseguridad.pdf)
+
+- Aquí tienes una [chuleta de Markdown](Files/CheatsheetMarkdown-2.0.pdf) o si te gusta más [aquí puedes encontrar otra diferentes](Files/Markdown-Cheatsheet2.pdf)
+
+- Aquí puedes encontrar una [chuleta con los comandos de git](Files/ChuletaGitEspanol.pdf).
+
+- Para ayudarte en tus primeros con `Docker`, ten a mano [esta chuleta de los comandos Docker principales.](Files/ChuletaComandosDocker.jpg). Puedes completarla tu mismo
+
