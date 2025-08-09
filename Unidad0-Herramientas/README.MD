@@ -6,44 +6,44 @@
 
 1. Comprender los principios fundamentales de la seguridad informática
 
-- Identificar los conceptos clave: confidencialidad, integridad y disponibilidad (CIA).
+    - Identificar los conceptos clave: confidencialidad, integridad y disponibilidad (CIA).
 
-- Reconocer las principales amenazas y ataques en entornos digitales.
+    - Reconocer las principales amenazas y ataques en entornos digitales.
 
 1. Analizar los tipos de ciberataques más comunes y sus mecanismos de actuación
 
-- Estudiar los vectores de ataque y tácticas utilizadas por los ciberdelincuentes.
+    - Estudiar los vectores de ataque y tácticas utilizadas por los ciberdelincuentes.
 
 
 1. Familiarizarse con el entorno de trabajo y metodología del módulo
 
-- Conocer el enfoque práctico del módulo, los criterios de evaluación y la dinámica de trabajo colaborativo.
+    - Conocer el enfoque práctico del módulo, los criterios de evaluación y la dinámica de trabajo colaborativo.
 
-- Navegar con soltura por la plataforma de aprendizaje y sus recursos.
+    - Navegar con soltura por la plataforma de aprendizaje y sus recursos.
 
 1. Aplicar buenas prácticas en la documentación técnica mediante el uso de Markdown
 
-- Redactar documentación clara, estructurada y técnica en un formato reutilizable.
+    - Redactar documentación clara, estructurada y técnica en un formato reutilizable.
 
-- Integrar Markdown en entornos colaborativos y plataformas como GitHub.
+    - Integrar Markdown en entornos colaborativos y plataformas como GitHub.
 
 1. Dominar los fundamentos del control de versiones con Git
 
-- Gestionar eficazmente el código fuente de los proyectos mediante ramas y commits.
+    - Gestionar eficazmente el código fuente de los proyectos mediante ramas y commits.
 
-- Colaborar en entornos de desarrollo distribuidos.
+    - Colaborar en entornos de desarrollo distribuidos.
 
 1. Conocer y aplicar tecnologías de virtualización y contenedores con Docker
 
-- Entender las ventajas de los contenedores frente a las máquinas virtuales.
+    - Entender las ventajas de los contenedores frente a las máquinas virtuales.
 
-- Implementar y ejecutar contenedores para entornos de pruebas y despliegue seguro.
+    - Implementar y ejecutar contenedores para entornos de pruebas y despliegue seguro.
 
 1. Introducir las bases del enfoque DevOps y su relación con la seguridad (DevSecOps)
 
-- Comprender el ciclo de vida del software desde el desarrollo hasta la producción.
+    - Comprender el ciclo de vida del software desde el desarrollo hasta la producción.
 
-- Valorar la importancia de la integración continua y el despliegue seguro.
+    - Valorar la importancia de la integración continua y el despliegue seguro.
 
 1. doptar una visión unificada entre desarrollo, operaciones y seguridad.
 
@@ -93,7 +93,12 @@ En este pdf vamos a ver una introducción a la ciberseguridad: conceptos, tipos 
 En este pdf podremos conocer los principales ciberataques.
 
 - Documentación y lenguaje de marcas MarkDown
+
+Para conocer `Markdown` seguiremos [esta presentación](./ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf) 
+
 - Sistemas de control de versiones: Git
+
+Para conocer `git` puedes seguir el [curso de Docker de José Domingo Muñoz](./curso_docker/README.MD). También puedes [echar un ojo a la presentación](./ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf) 
 - Virtualización. Contenedores: Docker
 - Prácticas unificadas para el desarrollo y operación del software (DevOps).
 
