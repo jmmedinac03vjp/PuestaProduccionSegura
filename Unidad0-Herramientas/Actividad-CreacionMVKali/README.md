@@ -66,8 +66,8 @@ Sencillo, tan sólo hacer doble clik sobre archivo descargado.
 
 Nos situamos en el directorio donde hemos descargado el instalador, damos permiso de ejecución al archivo descargado, actualizamos las listas de repositorios, instalamos paquetes necesarios, y por último ejecutamos el instalador.
 
-`/bin/bash`
-```
+
+```bash
 chmod x VMware-Player-*.bundle
 sudo apt update
 sudo apt install build-essential linux-headers-$(uname -r)
