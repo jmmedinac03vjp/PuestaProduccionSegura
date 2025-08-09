@@ -1,14 +1,18 @@
-# Unidad -
+# Actividad Unidad -
+
+# [Objetivos](#objetivos)
+
+# [Resultados de aprendizaje y Criterios de Evaluación](#resultados-de-aprendizaje-y-criterios-de-evaluación)
+
+# [Desarrollo](#desarrollo)
+
+# [Entrega](#entrega)
 
 # Objetivos
 
-# Criterios de Evaluación
+# Resultados de aprendizaje y Criterios de Evaluación
 
-# Contenidos Teóricos
+# Desarrollo
 
-# Actividades
-
-# Recursos
-
-
+# Entrega
 
