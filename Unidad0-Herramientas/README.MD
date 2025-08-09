@@ -98,7 +98,7 @@ Para conocer `Markdown` seguiremos [esta presentación](./ContenidosTeoricos/PPS
 
 - Sistemas de control de versiones: Git
 
-Para conocer `git` puedes seguir el [curso de Docker de José Domingo Muñoz](./curso_docker/README.MD). También puedes [echar un ojo a la presentación](./ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf) 
+Para conocer `git` puedes seguir el [curso de Docker de José Domingo Muñoz](curso_docker/README.MD). También puedes [echar un ojo a la presentación](ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf) 
 - Virtualización. Contenedores: Docker
 - Prácticas unificadas para el desarrollo y operación del software (DevOps).
 
