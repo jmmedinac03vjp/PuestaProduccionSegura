@@ -8,11 +8,19 @@
 
 # [Entrega](#entrega)
 
+---
+
 # Objetivos
+
+---
 
 # Resultados de aprendizaje y Criterios de Evaluación
 
+---
+
 # Desarrollo
+
+---
 
 # Entrega
 
