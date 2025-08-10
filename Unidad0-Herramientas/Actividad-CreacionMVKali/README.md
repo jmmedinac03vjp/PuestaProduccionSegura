@@ -74,7 +74,7 @@ Nos situamos en el directorio donde hemos descargado el instalador, damos permis
 
 
 ```bash
-chmod x VMware-Player-*.bundle
+sudo chmod +x VMware-Player-*.bundle
 sudo apt update
 sudo apt install build-essential linux-headers-$(uname -r)
 sudo ./VMware-Player-*.bundle
@@ -99,21 +99,29 @@ Tenemos ya lo necesario para crear la máquína virtual.
 
 Lo primero, para acceder a `Kali` utilizamos el *usuario+ **kali** con *contraseña* **kali**.
 
+
 ## Instalación de VMTools y cambio en configuración.
-5. Podemos modificar las características de la MV desde el Menú `VM/Settings` o bien desde la opción `Settings` que se nos abre al pulsar con botón derecho en la MV.
 
-![](images/MV6.png)
+1. Comprobamos que en el proceso de creación de la MV se ha instalado el paquete `VMtools`.
 
-> Como vemos, por defecto se nos crea una máquina con 2 GB de RAM y 80 GB de disco duro. Desde esté menú podemos cambiar estas características.
-> Puedes probar a subir la RAM si tu equipo tiene más de 8 GB. No te aconsejo subirlo, como norma general a más del 50 % de tus recursos.
+    ```bash
+    sudo apt-get install open-vm-tools-desktop fuse
 
->También podemos 
->
->![](images/MV7.png)
+    ```
+
+Esta utilidad nos permite cortar y pegar entre anfitrión e invitado, arrastrar archivos, etc...
+
+
+1. Podemos modificar las características de la MV desde el Menú `VM/Settings` o bien desde la opción `Settings` que se nos abre al pulsar con botón derecho en la MV.
+
+    ![](images/MV6.png)
+
+    > Como vemos, por defecto se nos crea una máquina con 2 GB de RAM y 80 GB de disco duro. Desde esté menú podemos cambiar estas características.
+    > Puedes probar a subir la RAM si tu equipo tiene más de 8 GB. No te aconsejo subirlo, como norma general a más del 50 % de tus recursos.
+
+
 
 ## Primeros pasos
-
-
 
 Vamos a hacer algunas modificaciones en nuestra distribución:
 
@@ -130,10 +138,17 @@ Vamos a hacer algunas modificaciones en nuestra distribución:
   Vamos abajo de la lista y vemos que está seleccionado `en_US.UTF-8 UTF-8`. Lo desmarcamos pulsando **el Espaciado** y bajamos hasta **es_ES.UTF-8 UTF-8** y lo seleccionamos.  
   En la siguiente pantalla nos indica que si queremos cambiar el idioma del sistema, y le indicamos también que queremos **es_ES.UTF-8**. 
 
+1. Sincronizar Mv con hola local:
+    ```bash
+    sudo ln -sfn /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+    ```
+
 1. Cambiar distribución del teclado:  
 
+    ```bash 
     sudo dpkg-reconfigure keyboard-configuration
     ```
+
     Si nos aparece distribusicón `English (US)`nos vamos a `Others`
 
     ![](images/MV8.png)
@@ -174,21 +189,36 @@ Estos cambios surten efectos después de reiniciar el sistema.
     sudo apt upgrade
     sudo apt -yf install
     ```
+
     ![](images/MV11.png)
 
     Tardará un buen rato en instalar todo.
 
-![](images/MV.png)
-```bash
+## Instalar Docker
 
+Para finalizar, vamos a instalar `Docker` en nuestra MV, ya que lo utilizaremos durante todo el curso.
+
+- Actualizamos repositorio, instalamos paquetes de `docker` y `docker compose`, reiniciamos servicio y añadimos nuestro usuario al grupo `docker`.
+
+```bash
+sudo apt update
+sudo apt install docker.io
+sudo apt install docker-compose
+sudo systemctl enable docker --now
+sudo usermod -aG docker $USER
+```
+- Reiniciamos para que los cambios se efectúen.
+
+- Comprobamos que funciona todo:
+```bash
+docker run hello-world
 ```
 
-![](images/MV.png)
+![](images/MV12.png)
 
-
-
-![](images/MV.png)
 
 ---
 
 # Entrega
+
+Sube a la plataforma una captura de pantalla completa donde se pueda ver el escritorio de tu máquina anfitriona y tu máquina virtual con un terminal abierto con tu usuario PPSTuNombre.
