@@ -158,7 +158,7 @@ Vamos a hacer algunas modificaciones en nuestra distribución:
 Estos cambios surten efectos después de reiniciar el sistema.  
 
 1. Crear un usuario nuevo. Así podemos dejar de utilizar el usuario y contraseña por defecto.
-> **IMPORTANTE** Debes de crear un usuario con tu nombre para que quede acreditada la autoría de las actividades, por lo que cambia **PPSUsuario** por **PPSTuNombre** en los siguientes comandos
+> **IMPORTANTE** Debes de crear un usuario con tu nombre para que quede acreditada la autoría de las actividades, por lo que cambia **PPSUsuario** por **PPSTuNombre** en los siguientes comandos:  
     ```bash
     sudo adduser PPSUsuario
     ```  
