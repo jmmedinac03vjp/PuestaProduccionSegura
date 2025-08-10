@@ -85,6 +85,7 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 ---
 # Actividades
 
+- [Creación de Máquina Virtual de Kali Linux](Actividad-CreacionMVKali/README.md)
 - [Lenguaje de Marcas Markdown en CodiMD](Actividad-MarkDown/README.md)
 - [Uso de Git(I)](Actividad-UsoGit/README.md)
 - [Uso de Git(II)](Actividad-UsoGitII/README.md)
@@ -101,11 +102,15 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 
     - [Guía de ciberataques de la Oficina de Seguridad del Internauta (OSI) del Instituto del Instituto Nacional de Ciberseguridad (INCIBE)](ContenidosTeoricos/osi-guia-ciberataques.pdf). En este pdf podremos conocer los principales ciberataques.
 
+    - [Creación de Máquina Virtual de Kali Linux](Actividad-CreacionMVKali/README.md). En esta actividad crearemos una máquina virtual de `Kali Linux` que usaremos durante todo el curso para realizar las actividades.
+
 2. Documentación y lenguaje de marcas `MarDown`
 
     En esta sección podremos conocer la sintaxis del lenguaje de marcas MarkDown
 
     - [Documentación y lenguaje de marcas MarkDown](./ContenidosTeoricos/MarkDown.md)
+
+    - [Lenguaje de Marcas Markdown en CodiMD](Actividad-MarkDown/README.md). Para practicar con `MarkDown` vamos a utilizar esta actividad que además nos servirá para dar los primeros pasos con docker.
 
 3. Sistemas de control de versiones: Git
 

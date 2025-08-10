@@ -17,7 +17,7 @@
 # Resultados de aprendizaje y Criterios de Evaluación
 
 
-Esta actividad se relaciona con el resultado de aprendizaje RA5b
+Esta actividad se relaciona con el resultado de aprendizaje y criterio de evaluación RA5b
 
 ---
 # Desarrollo

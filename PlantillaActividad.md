@@ -18,6 +18,7 @@
 
 # Resultados de aprendizaje y Criterios de Evaluación
 
+Esta actividad se relaciona con el resultado de aprendizaje y criterios de evaluación RA .
 ---
 
 # Desarrollo
