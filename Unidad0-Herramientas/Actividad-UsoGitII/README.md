@@ -1,7 +1,35 @@
 # Actividad - Uso de Git (II)
+===
 
 Vamos a hacer una nueva actividad con git. En esta ocasión crearemos un pequeño proyecto de una página web que podremos visualizar creando un pequeño servidor con php.
 Como en la actividad anterior el producto a realizar será el repositorio en github. Allí tendrás que documentar la realización de la práctica con la explicación del procedimiento, sus imágenes, etc.
+
+**Índice**
+
+[Objetivos](#objetivos)
+
+[Resultados de aprendizaje y Criterios de Evaluación](#resultados-de-aprendizaje-y-criterios-de-evaluación)
+
+[Desarrollo](#desarrollo)
+
+[Entrega](#entrega)
+
+---
+
+# Objetivos
+
+Ser capaz de configurar git en nuestro equipo.
+
+Utilizar comandos `Git` para realizar operaciones con el repositorio local y remoto. 
+
+---
+
+# Resultados de aprendizaje y Criterios de Evaluación
+
+Esta actividad se relaciona con el resultado de aprendizaje y criterios de evaluación RA5b.
+---
+
+# Desarrollo
 
 ## Seguimos configurando Git
 
@@ -21,9 +49,9 @@ color.diff=auto
 
 ## Creación de Proyecto y repositorio
 
-Para ello crea una nueva carpeta en tu directorio de git de PPS, con el nombre de esta actividad ___PPS-Unidad0Actividad4-TuNombre___
+Para ello crea una nueva carpeta en tu directorio de git de PPS, con el nombre de esta actividad ___PPS-Unidad0ActividadGit2-TuNombre___
 
-Crea un nuevo repositorio público con nombre __PPS-Unidad0Actividad4-TuNombre__
+Crea un nuevo repositorio público con nombre __PPS-Unidad0ActividadGit2-TuNombre__
 
 Sigue las indicaciones de github para crear tu nuevo repositorio en linea de comandos, esto es:
 
@@ -50,10 +78,10 @@ git push -u origin main
 
 ## Ignorando archivos
 
-1. Crea una carpeta con nombre Excluded. En ella vamos a colocar la documentación que no queremos que sea rastreada y subida al repositorio.
+1. Crea una carpeta con nombre `Excluded`. En ella vamos a colocar la documentación que no queremos que sea rastreada y subida al repositorio.
 2. Para comprobar que funciona crea algún archivo vacío allí y también crea un archivo con nombre excluido.txt en el directorio principal del repositorio.
 3. Crea un archivo con nombre .gitignore en el cual vamos a poner los archivos y directorios que no queremos que se rastreen.
-4. Indica en el .gitignore que los archivos con extensión .txt y el directorio Excluded no deben de ser rastreados ni sincronizados..
+4. Indica en el .gitignore que los archivos con extensión **.txt** y el directorio `Excluded` no deben de ser rastreados ni sincronizados..
 5. Comprueba el estado del proyecto y comprueba que no nos indica nada del seguimiento de dichos archivos.
 
 ## Trabajo con Git
@@ -68,16 +96,16 @@ git push -u origin main
 5. Añade el archivo index.html al proyecto (git add).
 6. Haz un commit (Puedes hacer ``commit -am "commentario del commit"` de esta manera se añaden las modificaciones de archivos y se hace el commit con el mensaje indicado sin abrir el archivo y tener que escribir nosotros).
 7. Vuelve a comprobar el estado del proyecto. Puedes ver como ya debería de estar todo en orden.
-8. Vuelve a subir los cambios a tu repositorio de github (git push)
+8. Vuelve a subir los cambios a tu repositorio de github (`git push`)
 
 ## Creación de nuestro servidor web y visualización de nuestro proyecto
 
 1. En un nueva pestaña de terminal y en el mismo directorio, ejecuta php -S 0:8080 para lanzar un servidor con la página html que has creado.
-2. Visualiza la página creada Puedes acceder a ella en tu navegador en el puerto 8080 de tu equipo: [](http://localhost:8080)
+2. Visualiza la página creada Puedes acceder a ella en tu navegador en el puerto 8080 de tu equipo: <http://localhost:8080>
 
 ## Seguimos Trabajando con Git
 
-1. Haz una copia del archivo local index.html con el nombre index.html.save. Modifica el fichero index.html para que cambie el texto mostrado en la página web.
+1. Haz una copia del archivo local `index.html` con el nombre `index.html.save`. Modifica el fichero index.html para que cambie el texto mostrado en la página web.
 2. Verifica estado del proyecto.
 3. Comprueba las diferencias de los archivos que no han sido añadidos (``git diff``)
 4. Refresca navegador para comprobar que ha cambiado el contenido de nuestra página web.
@@ -102,7 +130,10 @@ git push -u origin main
 3. Haz una modificación del index.html y guardas modificaciones.
 3. Sube los cambios al respositorio remoto a la rama Vers1 `git push origin Vers1` (En este caso podemos ver cómo el index.html de la rama `m̀ain` y `Vers1` son diferentes.
 
-## Entrega
+---
+
+# Entrega
+
 
 Una vez documentado todo el proceso en tu README.md, en la entrega por la plataforma, pega el enlace a tu repositorio de github.com
 

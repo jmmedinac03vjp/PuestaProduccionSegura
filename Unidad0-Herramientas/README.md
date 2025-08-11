@@ -116,7 +116,13 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 
     En esta sección veremos los Sistemas de Control de versiones y cómo trabajar con Git.
 
-    - [Sistemas de control de versiones: Git](Unidad0-Herramientas/ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf)
+    - [Sistemas de control de versiones: Git](Unidad0-Herramientas/ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf). Utilizaremos está presentación para ver los conceptos.
+
+    - Te puedes ayudar del siguiente documento: [ Introducción a Git de Victor Ponz](Unidad0-Herramientas/ContenidosTeoricos/Introduccion_Git_Victor_Ponz.pdf) si no te queda algo claro.
+
+    - Realiceramos una primera actividad:  [Uso de Git(I)](Actividad-UsoGit/README.md) en la que crearemos una cuenta de git y crearemos nuestro primer repositorio.
+
+     - Realiceramos una segunda actividad:  [Uso de Git(II)](Actividad-UsoGitII/README.md) para seguir practicando con operaciones en GIT
 
 4. Virtualización. Contenedores: Docker
 
