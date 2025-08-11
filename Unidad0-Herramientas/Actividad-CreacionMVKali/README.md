@@ -116,8 +116,12 @@ Esta utilidad nos permite cortar y pegar entre anfitrión e invitado, arrastrar 
 
     ![](images/MV6.png)
 
-    > Como vemos, por defecto se nos crea una máquina con 2 GB de RAM y 80 GB de disco duro. Desde esté menú podemos cambiar estas características.
-    > Puedes probar a subir la RAM si tu equipo tiene más de 8 GB. No te aconsejo subirlo, como norma general a más del 50 % de tus recursos.
+    > Como vemos, por defecto se nos crea una máquina con 2 GB de RAM y 80 GB de disco duro. Desde esté menú podemos cambiar estas características.  
+    > Puedes probar a subir la RAM si tu equipo tiene más de 8 GB. No te aconsejo subirlo, como norma general a más del 50 % de tus recursos.  
+    > También podemos indicarle en el apartado de `VMware Tools` que se mantenga siempre actualizado y que se sincronice la hora con la máquina anfitriona.  
+
+     ![](images/MV13.png)
+
 
 
 
