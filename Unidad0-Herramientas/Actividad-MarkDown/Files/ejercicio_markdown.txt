@@ -55,11 +55,12 @@ Escribir el texto base del ejercicio
 Revisar y corregir el documento  
 
 
+Aquí un enlace a la página web: Google.  
+Aquí un tienes un enlace al documento de admisión  y matriculación a ciclos que se encuentra en la dirección https://doe.juntaex.es/pdfs/doe/2024/1000o/24061743.pdf.
 
-Enlaces e imágenes  
-Aquí un enlace a una página web: Google.  
-Aquí un enlace a un documento llamado `ejercicio_markdown_pdf.pdf` que está en el directorio `./files`
-Aquí una imagen llamada ciberseguridad.jpg que está en la carpeta con nombre `files` de tu repositorio:   
+ 
+Aquí tienes una imagen que está en la dirección https://informatica.iesvalledeljerteplasencia.es/wp-content/uploads/2023/paginas/master/logos/CETI-vjp.png. Debe de aparecer aquí justo debajo.   
+
 
 
 
@@ -74,7 +75,7 @@ Sofía  28  Valencia
 
 
 Bloque de código  
-Ejemplo de comandos de Git para crear un repositorio:  
+Ejemplo de comandos de Bash que nos sirven  para crear un repositorio en Git :  
 git init  
 git add .  
 git commit -m "Primer commit"  
