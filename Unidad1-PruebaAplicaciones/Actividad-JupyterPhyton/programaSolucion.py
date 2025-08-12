@@ -1,70 +1,52 @@
 import random
+import time
 
-# Tablero: lista de listas con los números de casilla
-tablero = [
-    [12, 11, 10, 9, 8],
-    [13, 22, 21, 20, 7],
-    [14, 23, 24, 19, 6],
-    [15, 16, 17, 18, 5],
-    [0, 1, 2, 3, 4]
-]
+# Inicialización de jugadores
+jugadores = []
+while len(jugadores) < 5:
+    inicial = input(f"Introduce la inicial del jugador {len(jugadores)+1} (mayúscula): ").upper()
+    if inicial.isalpha() and len(inicial) == 1 and inicial not in jugadores:
+        jugadores.append(inicial)
+    else:
+        print("Inicial no válida o repetida. Intenta de nuevo.")
 
-def mostrar_tablero(pos_jugadores, iniciales):
-    for fila in tablero:
-        fila_str = ""
-        for casilla in fila:
-            casilla_str = str(casilla)
-            # Mostrar inicial si hay jugador en la casilla
-            jugadores_en_casilla = [iniciales[i] for i in range(2) if pos_jugadores[i] == casilla]
-            if jugadores_en_casilla:
-                casilla_str += "(" + ",".join(jugadores_en_casilla) + ")"
-            elif casilla == 0:
-                casilla_str = "Inicio"
-            elif casilla == 24:
-                casilla_str = "Meta"
-            fila_str += casilla_str.ljust(10)
-        print(fila_str)
-    print("-" * 50)
+# Posiciones iniciales
+posiciones = [0] * 5
 
-def pedir_inicial(jugador):
-    while True:
-        inicial = raw_input("Introduce la inicial del jugador %d (mayúscula): " % jugador)
-        if len(inicial) == 1 and inicial.isupper():
-            return inicial
-        print("Debe ser una sola letra mayúscula.")
+# Sorteo para decidir quién empieza
+turno = random.randint(0, 4)
+print(f"\nSorteo realizado. Empieza el jugador {jugadores[turno]}.")
+time.sleep(1)
 
-# Iniciales de los jugadores
-inicial1 = pedir_inicial(1)
-while True:
-    inicial2 = pedir_inicial(2)
-    if inicial2 != inicial1:
-        break
-    print("La inicial debe ser diferente a la del jugador 1.")
+def mostrar_tablero(posiciones, jugadores):
+    tablero = []
+    for i in range(25):
+        casilla = "Inicio" if i == 0 else "Meta" if i == 24 else str(i)
+        jugadores_en_casilla = [jugadores[j] for j, pos in enumerate(posiciones) if pos == i]
+        if jugadores_en_casilla:
+            casilla += " (" + ",".join(jugadores_en_casilla) + ")"
+        tablero.append(casilla)
+    print(" | ".join(tablero))
 
-iniciales = [inicial1, inicial2]
-pos_jugadores = [0, 0]  # Ambos empiezan en la casilla de inicio
-
-# Sorteo de turno
-turno = random.randint(0, 1)
-print("Empieza el jugador %s" % iniciales[turno])
-
-# Bucle principal del juego
-while True:
-    mostrar_tablero(pos_jugadores, iniciales)
-    raw_input("Turno de %s. Pulsa Enter para tirar el dado..." % iniciales[turno])
+# Juego principal
+fin = False
+while not fin:
+    jugador_actual = turno
+    input(f"\nTurno de {jugadores[jugador_actual]}. Pulsa Enter para tirar el dado...")
     tirada = random.randint(1, 6)
-    print("Ha salido un %d" % tirada)
-    nueva_pos = pos_jugadores[turno] + tirada
-    if nueva_pos >= 24:
-        pos_jugadores[turno] = 24
-        mostrar_tablero(pos_jugadores, iniciales)
-        print("¡El jugador %s ha llegado a la meta y gana!" % iniciales[turno])
+    print(f"{jugadores[jugador_actual]} ha sacado un {tirada}.")
+    posiciones[jugador_actual] += tirada
+    if posiciones[jugador_actual] >= 24:
+        posiciones[jugador_actual] = 24
+        mostrar_tablero(posiciones, jugadores)
+        print(f"\n¡{jugadores[jugador_actual]} ha llegado a la Meta y gana el juego!")
+        fin = True
         break
-    pos_jugadores[turno] = nueva_pos
-    # Comprobar si "come" al otro jugador
-    otro = 1 - turno
-    if pos_jugadores[turno] == pos_jugadores[otro] and pos_jugadores[turno] != 0:
-        print("El jugador %s ha comido a %s!" % (iniciales[turno], iniciales[otro]))
-        pos_jugadores[otro] = 0
-    # Cambiar turno
-    turno = otro
+    # Comprobar si ha "comido" a otro jugador
+    for otro in range(len(jugadores)):
+        if otro != jugador_actual and posiciones[jugador_actual] == posiciones[otro] and posiciones[jugador_actual] != 0:
+            print(f"{jugadores[jugador_actual]} ha caído en la casilla de {jugadores[otro]} y lo envía a Inicio.")
+            posiciones[otro] = 0
+    mostrar_tablero(posiciones, jugadores)
+    time.sleep(1)
+    turno = (turno + 1) % len(jugadores)
