@@ -53,13 +53,14 @@ e)	Se han evaluado los lenguajes de programación de acuerdo a la infraestructur
 - [Actividad-Pruebas](Actividad-Pruebas/README.md)
 - []()
 
-[](Unidad1-PruebaAplicaciones/Actividad-JupyterPhyton/ElementosPython.ipynb)
 
 ---
 
 # Línea de vida
 
----
+
+- Iniciamos los contenidos teóricos [desde esta presentación](ContenidosTeoricos/PPSUnidad1-LenguajesProgramacion.pdf).
+
 
 - Vamos a ver los diferentes **elementos de Python** través de [este cuaderno de Jupyter Notebook](./Actividad-JupyterPhyton/ElementosPython.ipynb) mientras realizamos la actividad [Actividad-EntornosDesarrollo.](Actividad-EntornosDesarrollo/README.md).  
 - 
