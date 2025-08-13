@@ -1,12 +1,22 @@
 # Unidad 1 - Prueba de aplicaciones web y para dispositivos móviles.
 
+[Objetivos](#objetivos)
 
+[Resultados de aprendizaje y Criterios de Evaluación](#resultados-de-aprendizaje-y-criterios-de-evaluación)
+
+[Contenidos Teóricos](#contenidos-teóricos)
+
+[Actividades](#actividades)
+
+[Línea de vida](#línea-de-vida)
+
+[Recursos y contenidos extra](#recursos-y-contenidos-extras)
 
 # Objetivos
 
 
 ---
-# Criterios de Evaluación
+# Resultados de aprendizaje y Criterios de Evaluación
 
 En esta unidad se aplica el RA1: Prueba aplicaciones web y aplicaciones para dispositivos móviles analizando la estructura del código y su modelo de ejecución.
 
@@ -43,6 +53,18 @@ e)	Se han evaluado los lenguajes de programación de acuerdo a la infraestructur
 - [Actividad-Pruebas](Actividad-Pruebas/README.md)
 - []()
 
+[](Unidad1-PruebaAplicaciones/Actividad-JupyterPhyton/ElementosPython.ipynb)
 
 ---
-# Recursos
+
+# Línea de vida
+
+---
+
+- Vamos a ver los diferentes **elementos de Python** través de [este cuaderno de Jupyter Notebook](./Actividad-JupyterPhyton/ElementosPython.ipynb) mientras realizamos la actividad [Actividad-EntornosDesarrollo.](Actividad-EntornosDesarrollo/README.md).  
+- 
+- 
+
+# Recursos y contenidos extras
+
+- [Libro Python básico para hackers y pentester](https://protegermipc.net/2019/05/22/libro-python-basico-para-hackers-y-pentester).
