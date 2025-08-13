@@ -27,6 +27,16 @@ def mostrar_tablero(posiciones, jugadores):
             casilla += " (" + ",".join(jugadores_en_casilla) + ")"
         tablero.append(casilla)
     print(" | ".join(tablero))
+# Comprobar si ha "comido" a otro jugador
+def comprobar_si_comido(jugador_actual, posiciones):
+    for otro in range(len(jugadores)):
+        if (
+            otro != jugador_actual
+            and posiciones[jugador_actual] == posiciones[otro]
+            and posiciones[jugador_actual] != 0
+        ):
+            print(f"{jugadores[jugador_actual]} ha caído en la casilla de {jugadores[otro]} y lo envía a Inicio.")
+            posiciones[otro] = 0
 
 # Juego principal
 fin = False
@@ -42,11 +52,8 @@ while not fin:
         print(f"\n¡{jugadores[jugador_actual]} ha llegado a la Meta y gana el juego!")
         fin = True
         break
-    # Comprobar si ha "comido" a otro jugador
-    for otro in range(len(jugadores)):
-        if otro != jugador_actual and posiciones[jugador_actual] == posiciones[otro] and posiciones[jugador_actual] != 0:
-            print(f"{jugadores[jugador_actual]} ha caído en la casilla de {jugadores[otro]} y lo envía a Inicio.")
-            posiciones[otro] = 0
+   
+    comprobar_si_comido(jugador_actual, posiciones)
     mostrar_tablero(posiciones, jugadores)
     time.sleep(1)
     turno = (turno + 1) % len(jugadores)
