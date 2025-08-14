@@ -14,6 +14,17 @@
 
 # Objetivos
 
+Comprender la clasificación de los lenguajes de programación.
+
+Diferenciar entre lenguajes de bajo y alto nivel, interpretados y compilados.
+
+Conocer los principales paradigmas de programación y sus características.
+
+Identificar ejemplos prácticos de cada paradigma.
+
+Valorar la importancia de elegir el paradigma adecuado según el problema.
+
+Conocer y valorar las ventajas de utilizar un entorno de desarrollo integrado (IDE).
 
 ---
 # Resultados de aprendizaje y Criterios de Evaluación
