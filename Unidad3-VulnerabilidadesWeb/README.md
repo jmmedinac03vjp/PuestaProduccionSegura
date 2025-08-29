@@ -45,7 +45,7 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
 ---
 # Actividades
 
-- [Actividad-CreacionEntornosExplotacionPrueba](Actividad-CreacionEntornosExplotacionPrueba/README.md)
+- [Actividad-CreacionEntornosPrueba](./Actividad-CreacionEntornoPrueba/README.md)
 - [Actividad-DeteccionEquiposPuertos](Actividad-DeteccionEquiposPuertos/README.md)
 - [Actividad-InyeccionSQL](Actividad-InyeccionSQL/README.md)
 - [Actividad-CrossSiteScripting-XSS](Actividad-CrossSiteScripting-XSS/README.md)

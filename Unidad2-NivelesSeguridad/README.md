@@ -54,8 +54,8 @@ d)	Se han reconocido los principales riesgos de las aplicaciones desarrolladas, 
 ---
 # Actividades
 
-- [Actividad - Trazado de una vulnerabilidad](Actividad-TrazadoVulnerabilidad/README.md)
-- [Actividad - Verificación de los Requisitos de Seguridad de una Aplicación](../Unidad2-NivelesSeguridad/Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
+- [Actividad - Trazado de una vulnerabilidad](./BorradorActividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
+- [Actividad - Verificación de los Requisitos de Seguridad de una Aplicación](./Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
 
 ---
 
