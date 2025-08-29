@@ -1,4 +1,4 @@
-# git rm -r --cached
+# git rm -r --cached nombreArchivo
 # git add .
 # git commit -m "quitando .gitignore"
 *solucion.*
