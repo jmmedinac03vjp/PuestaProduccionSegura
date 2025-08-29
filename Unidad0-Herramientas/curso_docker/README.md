@@ -3,7 +3,7 @@
 Curso sobre contenedores Docker.
 
 ## 1. Introducción a los contenedores Docker
-* Introducción a Docker
+* [Introducción a Docker](modulo1/introduccion.md)
 * [Instalación de docker](modulo1/instalacion.md)
 * [El "Hola Mundo" de docker](modulo1/holamundo.md)
 * [Ejecución simple de contenedores](modulo1/contenedor.md)
@@ -11,6 +11,7 @@ Curso sobre contenedores Docker.
 * [Creando un contenedor demonio](modulo1/demonio.md)
 * [Creando un contenedor con un servidor web](modulo1/web.md)
 * [Configuración de contenedores con variables de entorno](modulo1/configuracion.md)
+* [Ejercicios Introducción](./modulo1/ejercicios.md)
 
 ## 2. Imágenes Docker 
 * [Registros de imágenes: Docker Hub](modulo2/dockerhub.md)
@@ -18,6 +19,7 @@ Curso sobre contenedores Docker.
 * [¿Cómo se organizan las imágenes?](modulo2/organizacion.md)
 * [Creación de contenedores desde imágenes](modulo2/creacion.md)
 * [Ejemplo: Desplegando la aplicación mediawiki](modulo2/mediawiki.md)
+* [Ejercicios](./modulo2/ejercicios.md)
 
 ## 3. Almacenamiento y redes en Docker 
 * [Volúmenes docker y bind mount](modulo3/volumenes.md)
@@ -29,6 +31,8 @@ Curso sobre contenedores Docker.
 * [Ejemplo 2: Despliegue de la aplicación Temperaturas](modulo3/temperaturas.md)
 * [Ejemplo 3: Despliegue de Wordpress + mariadb](modulo3/wordpress.md)
 * [Ejemplo 4: Despliegue de tomcat + nginx](modulo3/tomcat.md)
+* [Ejercicios](./modulo3/ejercicios.md)
+
 
 ## 4. Creando escenarios multicontenedor con Docker Compose 
 * [Creando escenarios multicontenedor con Docker Compose](modulo4/instalacion.md)
@@ -39,6 +43,7 @@ Curso sobre contenedores Docker.
 * [Ejemplo 2: Despliegue de la aplicación Temperaturas](modulo4/temperaturas.md)
 * [Ejemplo 3: Despliegue de Wordpress + mariadb](modulo4/wordpress.md)
 * [Ejemplo 4: Despliegue de tomcat + nginx](modulo4/tomcat.md)
+* [Ejercicios](./modulo4/ejercicios.md)
 
 ## 5. Creación de imágenes en docker 
 * [Creación de imágenes a partir de un contenedor](modulo5/contenedor.md)
@@ -50,3 +55,4 @@ Curso sobre contenedores Docker.
 * [Ejemplo 4: Construcción de imágenes configurables con variables de entorno](modulo5/ejemplo4.md)
 * [Ejemplo 5: Configuración de imágenes con una aplicación Java](modulo5/ejemplo5.md)
 * [Ciclo de vida de las aplicaciones](modulo5/ciclo_vida.md)
+* [Ejercicios](./modulo5/ejercicios.md)
