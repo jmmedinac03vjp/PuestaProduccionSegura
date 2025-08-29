@@ -41,8 +41,6 @@ Esta actividad se relaciona con el resultado de aprendizaje y criterios de evalu
 ---
 ## Instalacion Jupyter
 
-En [este enlace](https://hub.docker.com/r/dockeruc/eclipse) puedes encontrar cómo crear un contenedor docker con un entorno IDE Eclipse.
-
 Lee bien las instrucciones y ten en cuenta que tienes que hacer varias operaciones. Las que tienes a continuación son de un entorno Linux:
 
 1. Instalamos, si no las tenemos, el paquete de python en su versión 3 y ``pip`` que es un gestor de paquetes escritos en python.

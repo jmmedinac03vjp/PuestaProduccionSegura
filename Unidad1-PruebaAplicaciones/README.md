@@ -70,12 +70,13 @@ e)	Se han evaluado los lenguajes de programación de acuerdo a la infraestructur
 # Línea de vida
 
 
-- Iniciamos los contenidos teóricos [desde esta presentación](ContenidosTeoricos/PPSUnidad1-LenguajesProgramacion.pdf).
+- Iniciamos los contenidos teóricos [desde esta presentación](ContenidosTeoricos/PPSUnidad1-LenguajesProgramacion.pdf). Desde ella veremos los contenidos: Fundamentos de la programación, Lenguajes de programación interpretados y compilados,  Código fuente y entornos de desarrollo,  Ejecución de software.
 
 
 - Vamos a ver los diferentes **elementos de Python** través de [este cuaderno de Jupyter Notebook](./Actividad-JupyterPhyton/ElementosPython.ipynb) mientras realizamos la actividad [Actividad-EntornosDesarrollo.](Actividad-EntornosDesarrollo/README.md).  
-- 
-- 
+- Veremos las diferentes pruebas presentes en el desarrollo [PresentacionPruebas.pdf](./Actividad-Pruebas/PresentacionPruebas.pdf) y realizaremos pruebas en una aplicación desde la siguiente actividad: [Actividad-Pruebas](./Actividad-Pruebas/README.md)
+- A continuación veremos las infraestructuras de seguridad que nos proporcionan algunos de los lenguajes de programaciónb y una comparativa de ellos desde la siguiente presentación, así como  la `Seguridad en los lenguajes de programación y sus entornos de ejecución (“sandboxes”)` mediante la presentación: [PPSUnidad1-InfraestructurasSeguridad.pdf](./ContenidosTeoricos/PPSUnidad1-InfraestructurasSeguridad.pdf)
+
 
 # Recursos y contenidos extras
 
