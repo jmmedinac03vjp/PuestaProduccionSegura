@@ -2,5 +2,5 @@
 # git add .
 # git commit -m "quitando .gitignore"
 *solucion.*
-./Plantilla*
+Plantilla*
 Borrador*
