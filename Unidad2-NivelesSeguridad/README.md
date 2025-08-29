@@ -55,7 +55,7 @@ d)	Se han reconocido los principales riesgos de las aplicaciones desarrolladas, 
 # Actividades
 
 - [Actividad - Trazado de una vulnerabilidad](Actividad-TrazadoVulnerabilidad/README.md)
-- []()
+- [Actividad - Verificación de los Requisitos de Seguridad de una Aplicación](../Unidad2-NivelesSeguridad/Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
 
 ---
 
@@ -64,7 +64,7 @@ d)	Se han reconocido los principales riesgos de las aplicaciones desarrolladas, 
 En esta unidad vamos a ver los diferentes contenidos teóricos siguiendo la [presentación de la Unidad 2, Niveles de seguridad requeridos por las aplicaciones](./ContenidosTeoricos/PPSUnidad2-NivelesSeguridadRequeridos.pdf).
 
 - Comenzaremos viendo las diferentes organizaciones y las listas relacionadas con la ciberseguridad que mantienen.
-- Realizaremos la [Actividad - Trazado de una vulnerabilidad](Actividad-TrazadoVulnerabilidad/README.md)
+- Veremos como podemos obtener información en fuentes abiertas realizando la [Actividad - Trazado de una vulnerabilidad](Actividad-TrazadoVulnerabilidad/README.md)
 - Continuaremos viendo las Listas OWAST Top 10 tanto en Web como Móvil.
 - Para finalizar con los contenidos teóricos veremos el Estándar ASVS.
 - Daremos por concluída la unidad con una [Actividad sobre la comprobación de requisitos de seguridad de una aplicación.](./Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
