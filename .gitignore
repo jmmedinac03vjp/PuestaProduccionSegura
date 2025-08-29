@@ -1,3 +1,6 @@
+# git rm -r --cached
+# git add .
+# git commit -m "quitando .gitignore"
 *solucion.*
 ./Plantilla*
-*Borrador*/*/*
+Borrador*
