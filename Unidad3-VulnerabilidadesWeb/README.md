@@ -88,6 +88,35 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
 ---
 
 # Línea de vida
+- En esta unidad vamos a ver las principales vulnerabilidades web.
+- Comenzamos haciendo una introducción en la presentación [Detección y corrección de vulnerabilidades en Aplicaciones Web](./ContenidosTeoricos/PPSUnidad3-DeteccionCorrecionVulnerabilidadesWeb.pdf)
+- Luego empezamos viendo las vulnerabilidades de datos de entrada con las de Inyección de codigo, desde la presentación [Detección y corrección de vulnerabilidades en aplicaciones web: Inyección de código](./ContenidosTeoricos/PPSUnidad3-VulnerabilidadesInyeccionCodigo.pdf).
+- Tenemos las siguientes actividades relacionadas con las vulnerabilidades de datos de entrada:
+    - [Actividad-DeteccionEquiposPuertos](Actividad-DeteccionEquiposPuertos/README.md)
+    - [Actividad-InyeccionSQL](Actividad-InyeccionSQL/README.md)
+    - [Actividad-CrossSiteScripting-XSS](Actividad-CrossSiteScripting-XSS/README.md)
+    - [Actividad-RemoteCodeExecution-RCE](Actividad-RemoteCodeExecution-RCE/README.md)
+    - [Actividad-LocalFileInclusion-LFI](Actividad-LocalFileInclusion-LFI/README.md)
+    - [Actividad-RemoteFileInclusion-RFI](Actividad-RemoteFileInclusion-RFI/README.md)
+    - [Actividad-DeserializacionInsegura](Actividad-DeserializacionInsegura/README.md)
+    - [Actividad-CrossSiteRequestForgery-CSRF](Actividad-CrossSiteRequestForgery-CSRF/README.md)
+
+
+
+    - [Actividad-GestionInseguraSesiones](Actividad-GestionInseguraSesiones/README.md)
+    - [Actividad-BrokenAuthentication](Actividad-BrokenAuthentication/README.md)
+    - [Actividad-LogingMonitoring](Actividad-LogingMonitoring/README.md)
+    - [Actividad-ConfiguracionSeguraTLS](Actividad-ConfiguracionSeguraTLS/README.md)
+    - [Actividad-ContentSecurityPoliceCSP](Actividad-ContentSecurityPoliceCSP/README.md)
+    - [Actividad-HSTS](Actividad-HSTS/README.md)
+    - [Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF](Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF/README.md)
+
+
+    - [Actividad-AnalisisEstaticoCodigoSAST](Actividad-AnalisisEstaticoCodigoSAST/README.md)
+    - [Actividad-AnalisisEstaticoSantoku](Actividad-AnalisisEstaticoSantoku/README.md)
+    - [Actividad-AnalisisSeguridadDinamicoDAST](Actividad-AnalisisSeguridadDinamicoDAST/README.md)
+    - [Actividad-EscaneoOWASPZAP](Actividad-EscaneoOWASPZAP/README.md)
+    - [Actividad-AnalisisDinamicoMobSFGenymotion](Actividad-AnalisisDinamicoMobSFGenymotion/README.md)
 
 ---
 
