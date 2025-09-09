@@ -96,6 +96,9 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
     - [Actividad-InyeccionSQL](Actividad-InyeccionSQL/README.md)
     - [Actividad-CrossSiteScripting-XSS](Actividad-CrossSiteScripting-XSS/README.md)
     - [Actividad-RemoteCodeExecution-RCE](Actividad-RemoteCodeExecution-RCE/README.md)
+
+- Seguimos con los contenidos teóricos con la presentación [](./ContenidosTeoricos/PPSUnidad3-OtrasVulnerabilidadesEntrada.pdf) en las que vemos ataques como XXE, Deserialización insegura, y Inclusión de Ficheros.
+- Algunas de las actividades en las que veremos esos ataques son:
     - [Actividad-LocalFileInclusion-LFI](Actividad-LocalFileInclusion-LFI/README.md)
     - [Actividad-RemoteFileInclusion-RFI](Actividad-RemoteFileInclusion-RFI/README.md)
     - [Actividad-DeserializacionInsegura](Actividad-DeserializacionInsegura/README.md)
