@@ -97,18 +97,20 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
     - [Actividad-CrossSiteScripting-XSS](Actividad-CrossSiteScripting-XSS/README.md)
     - [Actividad-RemoteCodeExecution-RCE](Actividad-RemoteCodeExecution-RCE/README.md)
 
-- Seguimos con los contenidos teóricos con la presentación [](./ContenidosTeoricos/PPSUnidad3-OtrasVulnerabilidadesEntrada.pdf) en las que vemos ataques como XXE, Deserialización insegura, y Inclusión de Ficheros.
+- Seguimos con los contenidos teóricos con la presentación [Otros tipos de vulnerabilidades de entrada](./ContenidosTeoricos/PPSUnidad3-OtrasVulnerabilidadesEntrada.pdf) en las que vemos ataques como XXE, Deserialización insegura, y Inclusión de Ficheros.
 - Algunas de las actividades en las que veremos esos ataques son:
     - [Actividad-LocalFileInclusion-LFI](Actividad-LocalFileInclusion-LFI/README.md)
     - [Actividad-RemoteFileInclusion-RFI](Actividad-RemoteFileInclusion-RFI/README.md)
     - [Actividad-DeserializacionInsegura](Actividad-DeserializacionInsegura/README.md)
     - [Actividad-CrossSiteRequestForgery-CSRF](Actividad-CrossSiteRequestForgery-CSRF/README.md)
 
-
+- Veremos las vulnerabilidades web relacionadas con la autenticación y autorización y la gestión de sesión, junto con el almacenamiento seguro de contraseñas desde la presentación [Autenticación y Gestión de sesiones](./ContenidosTeoricos/PPSUnidad3-AutenticacionGestionSesiones.pdf)
+- Algunas de las actividades relacionadas con esta categoría son:
 
     - [Actividad-GestionInseguraSesiones](Actividad-GestionInseguraSesiones/README.md)
     - [Actividad-BrokenAuthentication](Actividad-BrokenAuthentication/README.md)
-    - [Actividad-LogingMonitoring](Actividad-LogingMonitoring/README.md)
+- El siguiente conjunto de vulnerabilidades que veremos son las que tienen que ver con la __protección de datos sensibles y control de acceso__. En la presentación [Protección de datos sensibles y control de acceso](./ContenidosTeoricos/PPSUnidad3-ProteccionDatosSensiblesControlAcceso.pdf) podremos ver cómo asegurar los datos en transmisión y almacenamiento mediante encriptación (Almacenamaiento seguro de contraseñas) y el protocolo TLS además de diferentes contramedidas: HSTS, CSP, CAPTCHA, etc... y también veremos las políticas de control de acceso que podemos implementar en las aplicaciones.
+    - [Actividad-LogingMonitoring](Actividad-LogingMonitoring/README.md) 
     - [Actividad-ConfiguracionSeguraTLS](Actividad-ConfiguracionSeguraTLS/README.md)
     - [Actividad-ContentSecurityPoliceCSP](Actividad-ContentSecurityPoliceCSP/README.md)
     - [Actividad-HSTS](Actividad-HSTS/README.md)
