@@ -114,7 +114,7 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
     - [Actividad-HSTS](Actividad-HSTS/README.md)
     - [Actividad-ContentSecurityPoliceCSP](Actividad-ContentSecurityPoliceCSP/README.md)
 
-- Para finalizar el tema, a traves de la [presentación de Errores en la configuración de seguridad y Componentes vulnerables y desactualizados](./ContenidosTeoricos/PPSUnidad3-ErroresSeguridadComponentesVulnerables.pdf) veremos las vulnerabilidades que tienen que ver con Configuración defectuosa y componentes vulnerables y desactualizados. Además veremos cómo implementar un cortafuegos a nivel de aplicación: WAF.
+- Para finalizar los apartados relacionadas con los diferentes conjuntos de vulnerabilidades web, a traves de la [presentación de Errores en la configuración de seguridad y Componentes vulnerables y desactualizados](./ContenidosTeoricos/PPSUnidad3-ErroresSeguridadComponentesVulnerables.pdf) veremos las vulnerabilidades que tienen que ver con Configuración defectuosa , fallos en la Monitorización y los logs de segurida y Componentes vulnerables y desactualizados. Además veremos cómo implementar un cortafuegos a nivel de aplicación: WAF.
     - [Actividad-LogingMonitoring](Actividad-LogingMonitoring/README.md) 
     - [Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF](Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF/README.md)
 
