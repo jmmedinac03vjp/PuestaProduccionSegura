@@ -50,7 +50,7 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
 - Robo de sesión.
 - Vulnerabilidades web.
 - Almacenamiento seguro de contraseñas.
-- Contramedidas. HSTS, CSP, CAPTCHAs, entre otros.
+- Contramedidas: HSTS, CSP, CAPTCHAs, entre otros.
 - Seguridad de portales y aplicativos web. Soluciones WAF(Web Application Firewall).
 
 
@@ -111,10 +111,11 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
     - [Actividad-BrokenAuthentication](Actividad-BrokenAuthentication/README.md)
 - El siguiente conjunto de vulnerabilidades que veremos son las que tienen que ver con la __protección de datos sensibles y control de acceso__. En la presentación [Protección de datos sensibles y control de acceso](./ContenidosTeoricos/PPSUnidad3-ProteccionDatosSensiblesControlAcceso.pdf) podremos ver cómo asegurar los datos en transmisión y almacenamiento mediante encriptación (Almacenamaiento seguro de contraseñas) y el protocolo TLS además de diferentes contramedidas: HSTS, CSP, CAPTCHA, etc... y también veremos los diferentes modelos de control de acceso que podemos implementar en las aplicaciones.
     - [Actividad-ConfiguracionSeguraTLS](Actividad-ConfiguracionSeguraTLS/README.md)
-    - [Actividad-ContentSecurityPoliceCSP](Actividad-ContentSecurityPoliceCSP/README.md)
     - [Actividad-HSTS](Actividad-HSTS/README.md)
-    - [Actividad-LogingMonitoring](Actividad-LogingMonitoring/README.md) 
+    - [Actividad-ContentSecurityPoliceCSP](Actividad-ContentSecurityPoliceCSP/README.md)
 
+- Para finalizar el tema, a traves de la [presentación de Errores en la configuración de seguridad y Componentes vulnerables y desactualizados](./ContenidosTeoricos/PPSUnidad3-ErroresSeguridadComponentesVulnerables.pdf) veremos las vulnerabilidades que tienen que ver con Configuración defectuosa y componentes vulnerables y desactualizados. Además veremos cómo implementar un cortafuegos a nivel de aplicación: WAF.
+    - [Actividad-LogingMonitoring](Actividad-LogingMonitoring/README.md) 
     - [Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF](Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF/README.md)
 
 
