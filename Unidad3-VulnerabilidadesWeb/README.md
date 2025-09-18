@@ -115,10 +115,12 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
     - [Actividad-ContentSecurityPoliceCSP](Actividad-ContentSecurityPoliceCSP/README.md)
 
 - Para finalizar los apartados relacionadas con los diferentes conjuntos de vulnerabilidades web, a traves de la [presentación de Errores en la configuración de seguridad y Componentes vulnerables y desactualizados](./ContenidosTeoricos/PPSUnidad3-ErroresSeguridadComponentesVulnerables.pdf) veremos las vulnerabilidades que tienen que ver con Configuración defectuosa , fallos en la Monitorización y los logs de segurida y Componentes vulnerables y desactualizados. Además veremos cómo implementar un cortafuegos a nivel de aplicación: WAF.
+- Podemos ver estos conceptos estudiados en las siguientes actividades.
     - [Actividad-LogingMonitoring](Actividad-LogingMonitoring/README.md) 
     - [Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF](Actividad-HardeningSevidorApache-HTTPS-HSTS-WAF/README.md)
 
-
+- Finalizamos la unidad conociendo herramientas con las que vamos a poder localizar las vulnerabilidades que hemos conocido durante la unidad. Para ello utilizamos la presentación [Herramientas de detección de vulnerabilidades](./ContenidosTeoricos/PPSUnidad3-HerramientasDeteccionVulnerabilidades.pdf)
+- Tenemos algunas actividades donde veremos como utilizar herramientas de detección de vulnerabilidades de diferentes tipos:
     - [Actividad-AnalisisEstaticoCodigoSAST](Actividad-AnalisisEstaticoCodigoSAST/README.md)
     - [Actividad-AnalisisEstaticoSantoku](Actividad-AnalisisEstaticoSantoku/README.md)
     - [Actividad-AnalisisSeguridadDinamicoDAST](Actividad-AnalisisSeguridadDinamicoDAST/README.md)
