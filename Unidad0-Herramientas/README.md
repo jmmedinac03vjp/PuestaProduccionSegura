@@ -90,7 +90,8 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 - [Uso de Git(I)](Actividad-UsoGit/README.md)
 - [Uso de Git(II)](Actividad-UsoGitII/README.md)
 - [Uso de Git(III)](Actividad-UsoGitIII/README.md)
-- []()
+- [Ejercicios Docker](Actividad-Docker/README.md)
+- [Ejercicio DevSecOps](Actividad-DevSecOps/README.md)
 
 
 ---
@@ -126,9 +127,17 @@ g)	Se han creado bucles de retroalimentación ágiles entre los miembros del equ
 
 4. Virtualización. Contenedores: Docker
 
-    Para conocer `docker` puedes seguir el [curso de Docker de José Domingo Muñoz](curso_docker/README.md). También puedes [echar un ojo a la presentación](ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf)
+    Para conocer `docker` puedes seguir el [curso de Docker de José Domingo Muñoz](curso_docker/README.md). También puedes [echar un ojo a la presentación](ContenidosTeoricos/PPSUnidad0-SistemasControlVersionesGit.pdf).
+
+    - Realizaremos una actividad para practicar con docker: [Ejercicios Docker](Actividad-Docker/README.md).
 
 5. Prácticas unificadas para el desarrollo y operación del software (DevOps).
+
+    En esta sección veremos los Ciclos de Desarrollo Software Seguros.
+    
+    - Veremos diferentes ciclos de vida de desarrollo de software: CD/CI, DevOps y DevSecOps como ciclo de vida de software seguro, desde la presentación [Ciclos de Desarrollo Software Seguros](./ContenidosTeoricos/PPSUnidad0-SecDevOps.pdf).
+
+    - Para finalizar la unidad haremos una actividad donde podemos ver cómo crear un [flujo de trabajo de automatización de acciones](Actividad-DevSecOps/README.md).
 
 
 ---

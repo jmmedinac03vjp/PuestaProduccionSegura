@@ -54,25 +54,23 @@ d)	Se han reconocido los principales riesgos de las aplicaciones desarrolladas, 
 ---
 # Actividades
 
-- [Actividad - Trazado de una vulnerabilidad](./BorradorActividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
-- [Actividad - Verificación de los Requisitos de Seguridad de una Aplicación](./Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
+- [Actividad - Trazado de una vulnerabilidad](./Actividad-TrazadoVulnerabilidad/README.md).
+- [Actividad - Verificación de los Requisitos de Seguridad de una Aplicación](./Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md).
+- [Activida - Máquinas vulnerables](./BorradorActividad-MaquinasVulnerables/README.md).
 
 ---
 
 # Línea de vida
 
-En esta unidad vamos a ver los diferentes contenidos teóricos siguiendo la [presentación de la Unidad 2, Niveles de seguridad requeridos por las aplicaciones](./ContenidosTeoricos/PPSUnidad2-NivelesSeguridadRequeridos.pdf).
+En esta unidad vamos a ver los diferentes contenidos teóricos siguiendo la [presentación de la Unidad 2, Niveles de seguridad requeridos por las aplicaciones](ContenidosTeoricos/PPSUnidad2-NivelesSeguridadRequeridos.pdf).
 
-- Comenzaremos viendo las diferentes organizaciones y las listas relacionadas con la ciberseguridad que mantienen.
-- Veremos como podemos obtener información en fuentes abiertas realizando la [Actividad - Trazado de una vulnerabilidad](Actividad-TrazadoVulnerabilidad/README.md)
-- Continuaremos viendo las Listas OWAST Top 10 tanto en Web como Móvil.
-- Para finalizar con los contenidos teóricos veremos el Estándar ASVS.
-- Daremos por concluída la unidad con una [Actividad sobre la comprobación de requisitos de seguridad de una aplicación.](./Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
+- Comenzaremos viendo las diferentes **organizaciones y las listas** relacionadas con la ciberseguridad que mantienen.
+- Veremos como podemos obtener **información en fuentes abiertas** realizando la [Actividad - Trazado de una vulnerabilidad](Actividad-TrazadoVulnerabilidad/README.md)
+- Continuaremos viendo las **Listas OWAST Top 10** tanto en Web como Móvil.
+- Para finalizar con los contenidos teóricos veremos el **Estándar ASVS**. Veremos cómo aplicar el Estándar ASVS con una [Actividad sobre la comprobación de requisitos de seguridad de una aplicación.](./Actividad-ComprobacionRequisitosSeguridadAplicacion/README.md)
+- Para finalizar en la [Actividad - Maquinas Vulnerables](./Actividad-MaquinasVulnerables/README.md), crearemos con `Docker` un **entorno de máquinas vulnerables** con las que podremos probar ataques y ver como implementan las defensas.
 ---
 
 # Recursos y contenidos extra
 
-
-
 ---
-# Recursos
