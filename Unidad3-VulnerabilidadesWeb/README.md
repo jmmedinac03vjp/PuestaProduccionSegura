@@ -89,7 +89,8 @@ g)	Se han incorporado medidas para evitar los ataques a contraseñas, envío mas
 
 # Línea de vida
 - En esta unidad vamos a ver las principales vulnerabilidades web.
-- Comenzamos haciendo una introducción en la presentación [Detección y corrección de vulnerabilidades en Aplicaciones Web](./ContenidosTeoricos/PPSUnidad3-DeteccionCorrecionVulnerabilidadesWeb.pdf)
+- Comenzamos haciendo una introducción en la presentación [Detección y corrección de vulnerabilidades en Aplicaciones Web](./ContenidosTeoricos/PPSUnidad3-DeteccionCorrecionVulnerabilidadesWeb.pdf). 
+- La primera actividad a realizar, será la [Actividad - Creación de Entorno de Pruebas ](./Actividad-CreacionEntornoPrueba/README.md), donde crearemos un entorno de prueba que nos sirva de base para todas las actividades disponibles.
 - Luego empezamos viendo las vulnerabilidades de datos de entrada con las de Inyección de codigo, desde la presentación [Detección y corrección de vulnerabilidades en aplicaciones web: Inyección de código](./ContenidosTeoricos/PPSUnidad3-VulnerabilidadesInyeccionCodigo.pdf).
 - Tenemos las siguientes actividades relacionadas con las vulnerabilidades de datos de entrada:
     - [Actividad-DeteccionEquiposPuertos](Actividad-DeteccionEquiposPuertos/README.md)
