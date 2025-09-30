@@ -58,10 +58,20 @@ https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-docker-deployment
 
 - Al visualizar el documento elaborado, debe parecerse a [este documento en formato pdf](./Files/ejercicio_markdown_pdf.pdf), úsalo como guía.  
 
+## Borrando rastros
+
+Una vez finalizada la actividad:
+
+- Paramos los contenedores que hemos creado. Desde la propia carpeta del proyecto:
+   ```bash
+    docker compose down -v
+    docker system prune 
+    docker rmi codimd
+    ```
 
 ---
 # Entrega
 
-Comprime el directorio que contiene el documento elaborado, junto con el directorio `files` y lo subes a través de la plataforma.
+Comprime el directorio que contiene el documento elaborado, y lo subes a través de la plataforma.
 
 
