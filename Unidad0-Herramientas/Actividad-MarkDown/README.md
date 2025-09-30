@@ -52,7 +52,7 @@ https://hackmd.io/c/codimd-documentation/%2Fs%2Fcodimd-docker-deployment
 
 > La idea de esta actividad es que practiques la sintaxis de `MarkDown`, por lo que a partir del texto sin formato que se proporciona, puedes pegarlo en un documento nuevo de `CodiMD` e ir añadiéndole las etiquetas.
 
-- [Aquí tienes un documento sin formato, con nombre ejercicio_mardown.txt](Files/ejercicio_markdown.txt). Puedes utilizarlo para copiar el texto en un archivo nuevo de `CodiMD`.  
+- [Aquí tienes un documento sin formato, con nombre ejercicio_mardown.txt](./Files/ejercicio_markdown.txt). Puedes utilizarlo para copiar el texto en un archivo nuevo de `CodiMD`.  
 
 - Debes de ir añadiéndole la sintaxis de Markdown para que todos los elementos se visualicen corrextamente.
 
