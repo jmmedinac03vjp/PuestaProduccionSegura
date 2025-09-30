@@ -191,7 +191,13 @@ Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha d
     Después dejamos las opciones por defecto y salimos.  
 Estos cambios surten efectos después de reiniciar el sistema.  
 
-1. Actualizar lista de paquetes y sistema:
+1. Cambiar la hora local. Ponemos la hora de Madrid:
+
+```bash
+    sudo ln -sfn /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+   ```
+
+1.  Actualizar lista de paquetes y sistema:
     ```bash
     sudo apt update
     sudo apt upgrade
