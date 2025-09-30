@@ -101,16 +101,7 @@ Tenemos ya lo necesario para crear la máquína virtual.
 Lo primero, para acceder a `Kali` utilizamos el *usuario+ **kali** con *contraseña* **kali**.
 
 
-## Instalación de VMTools y cambio en configuración.
-
-1. Comprobamos que en el proceso de creación de la MV se ha instalado el paquete `VMtools`.
-
-    ```bash
-    sudo apt-get install open-vm-tools-desktop fuse
-
-    ```
-
-Esta utilidad nos permite cortar y pegar entre anfitrión e invitado, arrastrar archivos, etc...
+## Creación de Máquina Virtual 
 
 
 1. Podemos modificar las características de la MV desde el Menú `VM/Settings` o bien desde la opción `Settings` que se nos abre al pulsar con botón derecho en la MV.
@@ -125,7 +116,7 @@ Esta utilidad nos permite cortar y pegar entre anfitrión e invitado, arrastrar 
 
 
 
-## Primeros pasos
+## Cambio en configuración y primeros pasos
 
 1. Crear un usuario nuevo. Así podemos dejar de utilizar el usuario y contraseña por defecto.
 > **IMPORTANTE** Debes de crear un usuario con tu nombre para que quede acreditada la autoría de las actividades, por lo que cambia **PPSUsuario** por **PPSTuNombre** en los siguientes comandos:  
@@ -169,7 +160,8 @@ Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha d
   En la siguiente pantalla nos indica que si queremos cambiar el idioma del sistema, y le indicamos también que queremos **es_ES.UTF-8**. 
 
 
-> Igual es buena idea crear otro usuario de respaldo por si en algún momento hay problemas con el usuario creado.1. Sincronizar Mv con hola local:
+> Igual es buena idea crear otro usuario de respaldo por si en algún momento hay problemas con el usuario creado.
+1. Sincronizar Mv con hola local:
     ```bash
     sudo ln -sfn /usr/share/zoneinfo/Europe/Madrid /etc/localtime
     ``
@@ -191,11 +183,9 @@ Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha d
     Después dejamos las opciones por defecto y salimos.  
 Estos cambios surten efectos después de reiniciar el sistema.  
 
-1. Cambiar la hora local. Ponemos la hora de Madrid:
 
-```bash
-    sudo ln -sfn /usr/share/zoneinfo/Europe/Madrid /etc/localtime
-   ```
+
+
 
 1.  Actualizar lista de paquetes y sistema:
     ```bash
@@ -207,6 +197,15 @@ Estos cambios surten efectos después de reiniciar el sistema.
     ![](images/MV11.png)
 
     Tardará un buen rato en instalar todo.
+    
+1. Comprobamos que en el proceso de creación de la MV se ha instalado el paquete `VMtools`.
+
+    ```bash
+    sudo apt-get install open-vm-tools-desktop fuse
+
+    ```
+
+Esta utilidad nos permite cortar y pegar entre anfitrión e invitado, arrastrar archivos, etc...
 
 ## Instalar Docker
 
