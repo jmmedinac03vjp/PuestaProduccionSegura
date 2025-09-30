@@ -127,21 +127,6 @@ Esta utilidad nos permite cortar y pegar entre anfitrión e invitado, arrastrar 
 
 ## Primeros pasos
 
-Vamos a hacer algunas modificaciones en nuestra distribución:
-
-1. Cambiar idioma:  
-    Abrimos un terminal `CTRL + ALT + T`  
-    Introducimos el siguiente comando:
-!!!OJO¡¡¡ como el teclado está en Inglés los símbolos de puntuación no se corresponden con los del Tecaldo en Españos.
-Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha del 0 y encima de la P). Para usar la barra invertida `/` usamos la tecla guión `-` debajo de la tecla `ñ`
-    ```bash
-    sudo dpkg-reconfigure locales
-    ```
-  ![](images/MV9.png)
-
-  Vamos abajo de la lista y vemos que está seleccionado `en_US.UTF-8 UTF-8`. Lo desmarcamos pulsando **el Espaciado** y bajamos hasta **es_ES.UTF-8 UTF-8** y lo seleccionamos.  
-  En la siguiente pantalla nos indica que si queremos cambiar el idioma del sistema, y le indicamos también que queremos **es_ES.UTF-8**. 
-
 1. Crear un usuario nuevo. Así podemos dejar de utilizar el usuario y contraseña por defecto.
 > **IMPORTANTE** Debes de crear un usuario con tu nombre para que quede acreditada la autoría de las actividades, por lo que cambia **PPSUsuario** por **PPSTuNombre** en los siguientes comandos:  
     ```bash
@@ -161,12 +146,29 @@ Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha d
     ```bash
     su PPSUsuario
     ```
-
-1. Después de comprobar que funciona tu usuario y que te permite hacer operaciones como superusuario, reiniciamos el equipo.
+    Después de comprobar que funciona tu usuario y que te permite hacer operaciones como superusuario, reiniciamos el equipo.
+    
 1. Y eliminamos el usuario por defecto:
     ```bash
     sudo deluser kali
+    ```Vamos a hacer algunas modificaciones en nuestra distribución:
+
+Cambios en las configuraciones:
+
+1. Cambiar idioma:  
+    Abrimos un terminal `CTRL + ALT + T`  
+    Introducimos el siguiente comando:
+!!!OJO¡¡¡ como el teclado está en Inglés los símbolos de puntuación no se corresponden con los del Tecaldo en Españos.
+Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha del 0 y encima de la P). Para usar la barra invertida `/` usamos la tecla guión `-` debajo de la tecla `ñ`
+    ```bash
+    sudo dpkg-reconfigure locales
     ```
+  ![](images/MV9.png)
+
+  Vamos abajo de la lista y vemos que está seleccionado `en_US.UTF-8 UTF-8`. Lo desmarcamos pulsando **el Espaciado** y bajamos hasta **es_ES.UTF-8 UTF-8** y lo seleccionamos.  
+  En la siguiente pantalla nos indica que si queremos cambiar el idioma del sistema, y le indicamos también que queremos **es_ES.UTF-8**. 
+
+
 > Igual es buena idea crear otro usuario de respaldo por si en algún momento hay problemas con el usuario creado.1. Sincronizar Mv con hola local:
     ```bash
     sudo ln -sfn /usr/share/zoneinfo/Europe/Madrid /etc/localtime
@@ -188,8 +190,6 @@ Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha d
     Y seleccionamos `Spanish`y luego otra vez `Spanish`  
     Después dejamos las opciones por defecto y salimos.  
 Estos cambios surten efectos después de reiniciar el sistema.  
-
-
 
 1. Actualizar lista de paquetes y sistema:
     ```bash
