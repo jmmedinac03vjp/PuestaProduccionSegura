@@ -164,7 +164,7 @@ Para usar el guión medio `-`utilizamos la tecla de la comilla ' (a la derecha d
 1. Sincronizar Mv con hola local:
     ```bash
     sudo ln -sfn /usr/share/zoneinfo/Europe/Madrid /etc/localtime
-    ``
+    ```
 
 1. Cambiar distribución del teclado:  
 
@@ -197,7 +197,7 @@ Estos cambios surten efectos después de reiniciar el sistema.
     ![](images/MV11.png)
 
     Tardará un buen rato en instalar todo.
-    
+
 1. Comprobamos que en el proceso de creación de la MV se ha instalado el paquete `VMtools`.
 
     ```bash
