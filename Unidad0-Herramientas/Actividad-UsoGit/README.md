@@ -87,6 +87,7 @@ git config --global color.status auto
 git config --global color.branch auto
 git config --global color.interactive auto
 git config --global color.diff auto
+git config --global init.defaultBranch main
 ```
 
 1. Lo siguiente es crear una clave ssh en nuestro equipo y añadirla a nuestra cuenta de github para nuestro repositorio se sincronice con github.com. Puedes ver el proceso de generación de clave en <https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent:>
@@ -147,9 +148,7 @@ PPS-Unidad0ActividadGit-TuNombre/
 │   └── index.md
 ├── mkdocs.yml
 ├── requirements.txt
-└── .github/
-    └── workflows/
-        └── deploy_docs.yml
+
 
 Comenzamos:
 1. Creamos la estructura:
