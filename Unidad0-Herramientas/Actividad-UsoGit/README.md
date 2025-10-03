@@ -133,6 +133,7 @@ git init
 git add README.md
 git branch -M main
 git remote add origin git@github.com:$Tu_usuario_gihub/PPS-Unidad0ActividadGit-$Tu_nombre.git
+git remote set-url origin git@github.com:$Tu_usuario_gihub/PPS-Unidad0ActividadGit-$Tu_nombre.git
 git push -u origin main
 ~~~
 
