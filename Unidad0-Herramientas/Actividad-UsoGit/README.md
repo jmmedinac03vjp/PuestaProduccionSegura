@@ -94,6 +94,10 @@ git config --global color.diff auto
 
 ```bash
 ssh-keygen -t ed25519 -C $Tu_mail_github
+# Iniciamos el agente en segundo plano
+eval "$(ssh-agent -s)"
+#Nos mostrará un mensaje como 
+#Agent pid 59566
 ssh-add ~/.ssh/id_ed25519
 ```
 
@@ -109,8 +113,8 @@ cat ~/.ssh/id_ed25519.pub
 1. Crea una carpeta con el mismo nombre que la tarea y entras en ella.
 
 ```bash
-mkdir PPS-Unidad0ActividadGit-$TuNombre
-cd PPS-Unidad0ActividadGit-$TuNombre
+mkdir PPS-Unidad0ActividadGit-$Tu_nombre
+cd PPS-Unidad0ActividadGit-$Tu_nombre
 ```
 
 1. Crea un nuevo repositorio público en gitHub.
