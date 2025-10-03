@@ -140,14 +140,14 @@ git push -u origin main
 
 1. La estructura del proyecto debe de ser la siguiente:
 
-PPS-Unidad0ActividadGit-TuNombre/  
-├── calculator/  
-│   ├── __init__.py  
-│   └── gui.py  
-├── docs/  
-│   └── index.md  
-├── mkdocs.yml  
-├── requirements.txt  
+PPS-Unidad0ActividadGit-TuNombre/   
+├── calculator/   
+│   ├── __init__.py   
+│   └── gui.py   
+├── docs/   
+│   └── index.md   
+├── mkdocs.yml   
+├── requirements.txt   
 
 
 Comenzamos:
