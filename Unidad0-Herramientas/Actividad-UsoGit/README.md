@@ -267,7 +267,7 @@ php -S 0:8080
 ```
 
 1. Abre otra pestaña en el terminal, ya que se queda ocupada con el servidor php. Cuando quieras interrumpir la ejecución pulsa Ctrl+C.
-1. Visualiza la página web: <localhost:8080>
+1. Visualiza la página web: <https://localhost:8080>
 
 
 1. Modifica el fichero index.html para que cambie el texto mostrado en la página web y refresca el navegador para ver cómo ha cambiado el mensaje.
@@ -324,7 +324,7 @@ git log -p -2
 1. Muestra los logs de las modificaciones realizadas en el último día.
 
 ```bash 
-git log since=1.day
+git log --since=1.day
 ```
 
 ## Ramas
@@ -334,11 +334,6 @@ git log since=1.day
 git branch --list
 ```
 
-1. Crea una nueva rama con nombre `dev` a partir de la rama actual.
-
-```bash
-git chekout -b dev
-```
 1. Elimina el archivo index.html.save y guardas modificaciones.
 
 ```bash
@@ -346,7 +341,11 @@ git rm index.html.save
 git commit -am "eliminando index.html.save"
 git push origin main
 ```
+1. Crea una nueva rama con nombre `dev` a partir de la rama actual.
 
+```bash
+git chekout -b dev
+```
 1. Sube los cambios al respositorio remoto a la rama `dev`  
 
 ```bash 
