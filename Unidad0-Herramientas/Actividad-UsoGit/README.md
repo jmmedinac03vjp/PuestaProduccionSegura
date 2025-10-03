@@ -170,7 +170,7 @@ Vemos como nos indica que tenemos archivos sin seguimiento.
 
 ```bash
 # podemos añadir uno a uno
-git add docs index.md calculatos/gui.py
+git add docs/index.md calculatos/gui.py
 # o todos a la vez
 git add .
 ```
@@ -239,7 +239,7 @@ git clone git@github.com:$Tu_usuario_github/PPS-Unidad0ActividadGit-$Tu_nombre.g
 
 ```bash
 # creando y añadiendo txt en .gitignoregit add .
-echo ".txt" > .gitignoregit 
+echo ".txt" > .gitignore 
 # creando carpeta excluded y archivo dentro de ella
 touch  Excluded/otroarchivoexcluido
 #Creando archivo excluido.txt
