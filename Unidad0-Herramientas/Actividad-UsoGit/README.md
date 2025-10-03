@@ -239,7 +239,7 @@ git clone git@github.com:$Tu_usuario_github/PPS-Unidad0ActividadGit-$Tu_nombre.g
 
 ```bash
 # creando y añadiendo txt en .gitignoregit add .
-echo ".txt" > .gitignore 
+echo ".txt" > .gitignore
 # creando carpeta excluded y archivo dentro de ella
 touch  Excluded/otroarchivoexcluido
 #Creando archivo excluido.txt
