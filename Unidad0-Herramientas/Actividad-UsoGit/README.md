@@ -39,7 +39,7 @@ Esta actividad se relaciona con el resultado de aprendizaje y criterios de evalu
 # Desarrollo
 
 ## Crear Cuenta en Github.com
-1. Abre una cuenta en Github.com con tu cuenta de educarex o informática.iesvalledeljerteplasencia.es
+1. Abre una cuenta en <https://Github.com> con tu cuenta de educarex o informática.iesvalledeljerteplasencia.es
 
 ## Asignando Variables
 Para que sea más rápido el proceso de copiar y pegar los comandos vamos a crear variables en el sistema y así se sustituirán automáticamente por vuestros nombres, cuenta de git y email. Sustituye los tuyos abajo:
